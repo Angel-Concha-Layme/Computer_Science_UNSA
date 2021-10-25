@@ -8,6 +8,6 @@ public class HelloRestController {
 
   @RequestMapping("/hola")
   public String hello() {
-    return "Hello. All your base are belong to us.";
+    return "Hell. All your base are belong to us.";
   }
 }
