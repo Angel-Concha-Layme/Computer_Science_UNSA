@@ -23,7 +23,7 @@ public class App {
   public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
     return args -> {
 
-      log.debug("Vamos a inspeccionar las semillas que Spring Boot ha proporcionado:");
+      log.debug("Vamoss a inspeccionar las semillas que Spring Boot ha proporcionado:");
 
       String[] beanNames = ctx.getBeanDefinitionNames();
       Arrays.sort(beanNames);
