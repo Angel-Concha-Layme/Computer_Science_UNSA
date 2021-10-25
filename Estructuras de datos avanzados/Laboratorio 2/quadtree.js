@@ -55,7 +55,22 @@ class Point {
       this.southwest = new QuadTree(sw, this.capacity);
       this.divided = true;
     }
-  
+    
+    search(point) {
+      if (!this.boundary.contains(point)) {
+        return false;
+      }
+      if (this.points.length > 0) {
+        return true;
+      }
+      if (!this.divided) {
+        return false;
+      }
+      return (
+        this.northwest.search(point) || this.northeast.search(point) || this.southwest.search(point) || this.southeast.search(point)
+      );
+    }
+
     insert(point) {
       if (!this.boundary.contains(point)) {
         return false;
