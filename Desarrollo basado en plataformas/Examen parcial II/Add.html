@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Consumiendo ServiceWeb de Spring Boot Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <script src="js/add.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Spring Boot Demo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="FindAll.html">FindAll</a></li>
+      <li><a href="FindById.html">FindById</a></li>
+      <li><a href="FindByName.html">FindByName</a></li>
+      <li class="active"><a href="Add.html">Add</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <div class="jumbotron text-center">
+        <h2>Consumiendo servicios web 
+          <button type="button" class="btn btn-default" aria-label="Left Align">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+          </button>
+        </h2>
+          <p>from: <a href="http://localhost:8080/CategoryRestService/Add/">http://localhost:8080/CategoryRestService/Add/</a></p>
+      </div>
+
+      <!--Formulario Here!-->
+        <form class="form-horizontal form_add" method="PUT">
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="name">Nombre:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name" placeholder="Ingresa el nombre">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="description">Descripción:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="description" placeholder="Ingresa Descripción">
+            </div>
+          </div>
+
+          <!--For submit-->
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div id="buton" class="btn btn-success">Agregar</div>
+            </div>
+          </div>
+        </form>
+      </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+</body>
+</html>

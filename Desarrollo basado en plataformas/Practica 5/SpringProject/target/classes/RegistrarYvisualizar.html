@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Visualizar</title>
+		<script>
+		var tabla = [
+			{nombre: "elemento1", descripcion: "Descripcion1"},
+			{nombre: "elemento2", descripcion: "Descripcion2"}
+		];
+
+		
+		function mostrarTabla()
+		{
+			
+			 var contenidoTabla = document.getElementById("elementos");
+			 var tablaLlena = "";
+			 
+			 for (var k = 0; k < tabla.length; k++)
+			 {
+				 tablaLlena += "<tr> <td>"+ tabla[k].nombre +"</td> <td>"+ tabla[k].descripcion +"</td> </tr>";
+			 }
+			 
+			 contenidoTabla.innerHTML = tablaLlena;
+		}
+		
+		function nuevoElemento(event)
+		{
+			event.preventDefault();
+			var NuevoElemento = {nombre: "elemento2", descripcion: "Descripcion2"};
+			tabla.push(NuevoElemento);
+			
+		}
+		
+		$.ajax({
+			url: '/users',
+			success: function(respuesta) {
+				console.log(respuesta);
+			},
+			error: function() {
+		        console.log("No se ha podido obtener la información");
+		    }
+		});
+
+		
+		</script>
+	</head>
+
+<body>
+	<form  id="formulario">
+		Nombre: <input type="text"  id="nombreElem">
+  		Descripcion: <input type="text" id="descripcionElem">
+	   
+	<button onSubmit="nuevoElemento()">Agregar elemento</button>
+
+	</form>
+
+
+
+	<table>
+		<thead>
+  			<tr>
+  				<th> Nombre </th>
+  				<th> Descripcion </th>
+	  		</tr>
+	  	</thead>
+	  	<tbody id="elementos">
+	  			
+	  	</tbody>
+	</table>
+	
+	<button onClick="mostrarTabla()">Mostrar Tabla</button>
+
+
+	
+	
+
+	
+
+</body>
+</html>
