@@ -14,7 +14,6 @@ enum Cat {
     completed 
 };
 
-
 class Formula{
 public:
     vector<int> literals;
@@ -29,7 +28,6 @@ public:
         literal_polarity = f.literal_polarity;
     }
 };
-
 
 class SATSolverDPLL{
 private:
@@ -46,7 +44,6 @@ public:
     void initialize(); 
     void solve();     
 };
-
 
 void SATSolverDPLL::initialize() {
     char c;   
@@ -99,7 +96,6 @@ void SATSolverDPLL::initialize() {
         }
     }
 }
-
 
 int SATSolverDPLL::unit_propagate(Formula &f) {
     bool unit_clause_found =
@@ -213,7 +209,6 @@ int SATSolverDPLL::DPLL(Formula f) {
     return Cat::normal;
 }
 
-
 void SATSolverDPLL::show_result(Formula &f, int result) {
     if (result == Cat::satisfied) 
         {
@@ -235,7 +230,6 @@ void SATSolverDPLL::show_result(Formula &f, int result) {
             cout << "UNSAT";
         }
 }
-
 
 void SATSolverDPLL::solve() {
     int result = DPLL(formula); 
