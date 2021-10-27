@@ -1,15 +1,4 @@
-/**
- * k-d Tree JavaScript - V 1.01
- *
- * https://github.com/ubilabs/kd-tree-javascript
- *
- * @author Mircea Pricop <pricop@ubilabs.net>, 2012
- * @author Martin Kleppe <kleppe@ubilabs.net>, 2012
- * @author Ubilabs http://ubilabs.net, 2012
- * @license MIT License <http://www.opensource.org/licenses/mit-license.php>
- */
-
- (function (root, factory) {
+(function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(['exports'], factory);
     } else if (typeof exports === 'object') {
