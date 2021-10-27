@@ -9,8 +9,6 @@
 #include <stdio.h>
 #include <queue>
 
-
-
 //implementacion de clase kdtree
 template<class T>
 class kdtree{
