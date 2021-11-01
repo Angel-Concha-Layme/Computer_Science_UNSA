@@ -42,15 +42,13 @@ function drawRange()
         circle(range.x, range.y, 2 * range.r);
 }
 
-function setup()
-{
+function setup(){
     //range = new Circle(0, 0, 50);
     range = new Rectangle(0, 0, 50, 50);
 
     createCanvas(width, height);
     background(0);
-    for(let i = 0; i < 12; ++i)
-    {
+    for(let i = 0; i < 10000; ++i){
         var x = Math.floor(Math.random() * height);
         var y = Math.floor(Math.random() * height);
         data.push([x, y]);
