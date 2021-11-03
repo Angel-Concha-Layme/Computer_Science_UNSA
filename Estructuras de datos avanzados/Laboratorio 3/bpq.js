@@ -1,9 +1,8 @@
 class BPQ{
     constructor(size){
         this.size = size;
-        this.queue = [];
+        this.queue = new Array(size);
     }
-
     insert(val, priority){
         if(this.queue.length < this.size)
             this.queue.push({data:val, priority:priority});

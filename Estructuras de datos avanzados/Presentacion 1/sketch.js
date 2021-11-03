@@ -1,6 +1,6 @@
 let range;
-let width = 700;
-let height = 800;
+let width = 900;
+let height = 900;
 
 let root;
 let data = [];
@@ -25,7 +25,7 @@ function drawPoints()
     {
         fill(255, 255, 255);
         circle(p[0], height - p[1], 7); // height -y para q se dibuje apropiadamente
-        textSize(20);
+        textSize(8);
         text(p[0] + ',' + p[1], p[0] + 5, height - p[1]);// height -y para q se dibuje apropiadamente
     }
 }
@@ -42,13 +42,15 @@ function drawRange()
         circle(range.x, range.y, 2 * range.r);
 }
 
-function setup(){
+function setup()
+{
     //range = new Circle(0, 0, 50);
     range = new Rectangle(0, 0, 50, 50);
 
     createCanvas(width, height);
     background(0);
-    for(let i = 0; i < 10000; ++i){
+    for(let i = 0; i < 50; ++i)
+    {
         var x = Math.floor(Math.random() * height);
         var y = Math.floor(Math.random() * height);
         data.push([x, y]);
