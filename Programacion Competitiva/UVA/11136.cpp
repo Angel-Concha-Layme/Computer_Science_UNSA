@@ -21,22 +21,22 @@
 #include <iomanip>
 
 
-int n, x, k;
+int n, x, k; 
 long long sum;
-std::multiset<int> bills;
+std::multiset<int> bills; 
 int main() {
-    while(std::cin >> n, n) {
-	sum = 0;
-	bills.clear();
-	for(int nn=0; nn<n; nn++) {
-	    std::cin >> k;
-	    for(int i=0; i<k; i++) {
-		std::cin >> x;
-		bills.insert(x);
-	    }
-	    auto hit = bills.end(), lot = bills.begin(); hit--;
-	    sum += (*hit)-(*lot);
-	    bills.erase(hit); bills.erase(lot);
+    while(std::cin >> n, n){
+		sum = 0;
+		bills.clear();
+		for(int nn=0; nn<n; nn++) {
+			std::cin >> k;
+			for(int i=0; i<k; i++) {
+				std::cin >> x;
+				bills.insert(x);
+			}
+			auto hit = bills.end(), lot = bills.begin(); hit--;
+			sum += (*hit)-(*lot);
+			bills.erase(hit); bills.erase(lot);
 	}
 	std::cout << sum << '\n';
     }

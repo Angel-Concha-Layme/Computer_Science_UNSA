@@ -20,7 +20,6 @@
 #include <limits>
 #include <iomanip>
 
-
 typedef std::pair<int, int> ii; //ii == ipair == pair<int,int>
 const int INF = 1e9; // 1,000,000,000
 
