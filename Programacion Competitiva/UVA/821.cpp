@@ -28,7 +28,7 @@ int main(){
     int Case = 1;   
     int a, b;
     while (std::cin >> a >> b, !(a == 0 && b == 0)){
-        std::vector<std::vector<int> > adj(N + 1, std::vector<int>(N + 1, INF)); // adjacency matrix
+        std::vector<std::vector<int>> adj(N + 1, std::vector<int>(N + 1, INF)); // adjacency matrix
 
         do {
             adj[a][b] = 1; // set cost
@@ -38,13 +38,12 @@ int main(){
         for (int k = 1; k <= N; ++k)
             for (int i = 1; i <= N; ++i)
                 for (int j = 1; j <= N; ++j)
-                    adj[i][j] = std::min(adj[i][j], adj[i][k] + adj[k][j]); // set cost
+                    adj[i][j] = std::min(adj[i][j], adj[i][k] + adj[k][j]); // set cost 
 
         int sum = 0, count = 0;
         for (int i = 1; i <= N; ++i)
             for (int j = 1; j <= N; ++j)
-                if (i != j && adj[i][j] != INF)
-                {
+                if (i != j && adj[i][j] != INF){
                     sum += adj[i][j]; // sum of all pairs
                     ++count; // number of pairs
                 }
