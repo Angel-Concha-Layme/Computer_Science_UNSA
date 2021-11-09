@@ -1,0 +1,120 @@
+#control-button {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.0;
+    transition: opacity .5s ease-in-out;
+  }
+  
+  #hint-text {
+    color: #bfbfbf;
+    text-align: center;
+    width: 460px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 10px;
+    opacity: 1.0;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  #picked {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+  }
+  
+  #left {
+    float: left;
+  }
+  
+  #results {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  li {
+    padding: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .tooltip {
+    height: 26px;
+    color: #333;
+    background-color: rgba(255,255,255,1.0);
+    border: 1px rgba(0,0,0,0.66) solid;
+    border-radius: 13px;
+    /*padding: 15px;*/
+    /*padding-left: 15px;*/
+    padding-right: 13px;
+    /*padding-top: 10px;*/
+  }
+  
+  .tooltip p {
+    display: inline-block;
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  
+  .tooltip-swatch {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+  }
+  
+  svg.kdtree {
+    border: 1px solid #DDD;
+  }
+  
+  #kdtree {
+    display: inline-block;
+  }
+  
+  
+  /* binary tree */
+  
+  #binarytree {
+    display: inline-block;
+  }
+  
+  svg.binarytree {
+    border: 1px solid #DDD;
+  }
+  
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+  }
+  
+  .node text { font: 12px sans-serif; }
+  
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+  }
+  
+  .sp-picker-container {
+    margin: 20px;
+  }
+  
+  .heading {
+    margin-left: 30px;
+  }
+  
+  #results ul {
+    margin-top: 25px;
+  }
+  
+  #results ul li div {
+   border-radius: 15px;
+  }
