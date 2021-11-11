@@ -55,7 +55,6 @@ public:
         int start = startNode;
         visited[start] = true;
         visited_all += 1;
-        //cout << "vecino " << start << " visitado.\n";
         circuit.push_back(start);
 
         while (visited_all != n)
@@ -63,17 +62,13 @@ public:
             int pos = getMinIndex(start);
             visited[pos] = true;
             visited_all += 1;
-            //cout << "vecino " << pos << " visitado.\n";
             circuit.push_back(pos);
             start = pos;
         }
         pathLength += dist[start][startNode];
-        //cout << "vecino " << startNode << " visitado" << endl;
-        //cout << "Procesado al 100%" << endl;
         circuit.push_back(startNode);
     } 
     void printResult(){
-        //cout << "Peso total del circuito en bruto:  " << pathLength << endl;
     }
     vector<int> getCircuit(){
         return circuit;
