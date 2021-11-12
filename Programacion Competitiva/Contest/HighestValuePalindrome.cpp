@@ -15,7 +15,6 @@ int main(){
     return 0;
 }
 
-
 std::string highest_value_palindrome(std::string s, int k){
     std::vector<bool> changed(s.size(), false);
     for(int i=0; i<s.size() / 2; ++i){

@@ -4,6 +4,7 @@
 
  
 long long stockmax(std::vector<int> &input);
+
 int main() {
     int T;
     std::cin >> T;
