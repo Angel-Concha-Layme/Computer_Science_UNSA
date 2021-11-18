@@ -1,0 +1,3 @@
+C:\cmake\bin\cmake.exe -E rm -f CMakeFiles\config.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\config.dir/objects.a @CMakeFiles\config.dir\objects1.rsp
+C:\MinGW\bin\mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\config.dir/objects.a -Wl,--no-whole-archive -o config.exe -Wl,--out-implib,libconfig.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\config.dir\linklibs.rsp
