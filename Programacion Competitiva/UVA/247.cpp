@@ -28,22 +28,22 @@ int main() {
         if(cases)
             puts("");
         printf("Calling circles for data set %d:\n", ++cases);
-        std::map<std::string, int> r;
-        int size = 0, graph[26][26] = {}, i, j, k;
-        int x, y, used[26] = {};
-        std::string name[26], a, b;
+        std::map<std::string, int> r; // map of names and their ranks
+        int size = 0, graph[26][26] = {}, i, j, k; // graph[i][j] = 1 iff i and j are connected
+        int x, y, used[26] = {}; // used[i] = 1 iff i is used in the graph
+        std::string name[26], a, b; // name[i] = name of i
         while(m--) {
             std::cin >> a >> b;
             x = r[a];
             if(x == 0)
-                r[a] = ++size, x = size, name[size] = a;
+                r[a] = ++size, x = size, name[size] = a; //std::cout << "x = " << x << std::endl;
             y = r[b];
             if(y == 0)
-                r[b] = ++size, y = size, name[size] = b;
+                r[b] = ++size, y = size, name[size] = b; //std::cout << "y = " << y << std::endl;
             graph[x][y] = 1;
         }
         for(i = 1; i <= size; i++)
-            graph[i][i] = 1;
+            graph[i][i] = 1; //
         for(k = 1; k <= size; k++) {
             for(i = 1; i <= size; i++) {
                 for(j = 1; j <= size; j++) {
@@ -53,7 +53,7 @@ int main() {
             }
         }
         for(i = 1; i <= size; i++) {
-            if(!used[i]) {
+            if(!used[i]) { 
                 int cnt = 0;
                 for(j = 1; j <= size; j++) {
                     if((!used[j]) && graph[i][j] && graph[j][i]) {
