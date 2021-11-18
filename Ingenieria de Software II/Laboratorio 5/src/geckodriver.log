@@ -1,0 +1,528 @@
+1605838901970	geckodriver	INFO	Listening on 127.0.0.1:58931
+1605838901985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS6jGZY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605838916392	Marionette	INFO	Listening on port 34127
+1605838916683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605839129627	Marionette	INFO	Stopped listening on port 34127
+1605839169124	geckodriver	INFO	Listening on 127.0.0.1:37591
+1605839169131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletKvS2t"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 2826: TypeError: event.target.closest is not a function
+1605839172736	Marionette	INFO	Listening on port 45865
+1605839172768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605839598409	geckodriver	INFO	Listening on 127.0.0.1:34643
+1605839598414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepuddvX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605839601769	Marionette	INFO	Listening on port 43211
+1605839601850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605839606635	Marionette	INFO	Stopped listening on port 45865
+1605839699486	geckodriver	INFO	Listening on 127.0.0.1:44571
+1605839699492	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7KT43Q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605839702904	Marionette	INFO	Listening on port 43851
+1605839703030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605839711682	Marionette	INFO	Stopped listening on port 43851
+1605839994625	geckodriver	INFO	Listening on 127.0.0.1:43167
+1605839994630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCh4QZn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605839998817	Marionette	INFO	Listening on port 44921
+1605839998873	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605840019897	Marionette	INFO	Stopped listening on port 43211
+1605840023647	Marionette	INFO	Stopped listening on port 44921
+1605840049041	geckodriver	INFO	Listening on 127.0.0.1:47493
+1605840049047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6jvdYK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840052676	Marionette	INFO	Listening on port 37859
+1605840052786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605840206969	geckodriver	INFO	Listening on 127.0.0.1:38505
+1605840206974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilectEP7w"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840210431	Marionette	INFO	Listening on port 42721
+1605840210515	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605840723891	geckodriver	INFO	Listening on 127.0.0.1:41651
+1605840723897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevAKTUF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840727810	Marionette	INFO	Listening on port 34709
+1605840727930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://5c0887855191d338328bec55b6c5e741.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: googqscp is not defined
+JavaScript error: , line 0: uncaught exception: 7
+1605840750879	Marionette	INFO	Stopped listening on port 34709
+1605840798979	geckodriver	INFO	Listening on 127.0.0.1:38829
+1605840799985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNdNezI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840804047	Marionette	INFO	Listening on port 35399
+1605840804130	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605840820765	Marionette	INFO	Stopped listening on port 35399
+1605840836067	geckodriver	INFO	Listening on 127.0.0.1:56583
+1605840837152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileogvo7Y"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840842485	Marionette	INFO	Listening on port 42053
+1605840842536	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605840874059	Marionette	INFO	Stopped listening on port 42053
+1605840890307	geckodriver	INFO	Listening on 127.0.0.1:41501
+1605840890312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1uoBns"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840894298	Marionette	INFO	Listening on port 38373
+1605840894360	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605840922168	geckodriver	INFO	Listening on 127.0.0.1:55417
+1605840922174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehaJ0pR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840926571	Marionette	INFO	Listening on port 41071
+1605840926613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605840945671	Marionette	INFO	Stopped listening on port 41071
+1605840976935	geckodriver	INFO	Listening on 127.0.0.1:47673
+1605840976968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE7vdW6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605840981779	Marionette	INFO	Listening on port 34291
+1605840981902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605841016865	Marionette	INFO	Stopped listening on port 34291
+1605841450387	geckodriver	INFO	Listening on 127.0.0.1:51027
+1605841450393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4RAwDY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841455393	Marionette	INFO	Listening on port 45161
+1605841455432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605841466932	Marionette	INFO	Stopped listening on port 45161
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605841484338	Marionette	INFO	Stopped listening on port 38373
+1605841488434	Marionette	INFO	Stopped listening on port 42721
+1605841489720	Marionette	INFO	Stopped listening on port 37859
+1605841530878	geckodriver	INFO	Listening on 127.0.0.1:57953
+1605841530884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8p6onI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841534744	Marionette	INFO	Listening on port 46789
+1605841534824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605841547711	Marionette	INFO	Stopped listening on port 46789
+1605841606862	geckodriver	INFO	Listening on 127.0.0.1:33683
+1605841606867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKiqpC7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841610618	Marionette	INFO	Listening on port 46737
+1605841610705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605841626487	geckodriver	INFO	Listening on 127.0.0.1:58787
+1605841626493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile33GiYm"
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841630770	Marionette	INFO	Listening on port 41161
+1605841630830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605841635177	Marionette	INFO	Stopped listening on port 46737
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605841677847	geckodriver	INFO	Listening on 127.0.0.1:57537
+1605841677852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4D8B3y"
+1605841681423	Marionette	INFO	Stopped listening on port 41161
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841682314	Marionette	INFO	Listening on port 40481
+1605841682397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605841754466	geckodriver	INFO	Listening on 127.0.0.1:50091
+1605841754472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegJejZo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841758165	Marionette	INFO	Listening on port 39253
+1605841758220	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605841761264	Marionette	INFO	Stopped listening on port 40481
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605841835639	geckodriver	INFO	Listening on 127.0.0.1:41209
+1605841835645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePEE1aN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605841839141	Marionette	INFO	Listening on port 33245
+1605841839186	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605841856530	Marionette	INFO	Stopped listening on port 33245
+1605841857941	Marionette	INFO	Stopped listening on port 39253
+1605842413726	geckodriver	INFO	Listening on 127.0.0.1:58061
+1605842413732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemLQmhy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605842417259	Marionette	INFO	Listening on port 41945
+1605842417372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605842434499	Marionette	INFO	Stopped listening on port 41945
+1605842513768	geckodriver	INFO	Listening on 127.0.0.1:40979
+1605842513774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerQFhfr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605842517241	Marionette	INFO	Listening on port 39135
+1605842517313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605842532283	Marionette	INFO	Stopped listening on port 39135
+1605842587152	geckodriver	INFO	Listening on 127.0.0.1:58029
+1605842587158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4vgCO1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605842590610	Marionette	INFO	Listening on port 35773
+1605842590698	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s0.2mdn.net/8463837/1605149128281/index.html, line 278: TypeError: studio.Enabler is undefined
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605842615114	Marionette	INFO	Stopped listening on port 35773
+1605842776096	geckodriver	INFO	Listening on 127.0.0.1:55393
+1605842776102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXkjFuN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605842779495	Marionette	INFO	Listening on port 43145
+1605842779553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605842807874	Marionette	INFO	Stopped listening on port 43145
+1605843240732	geckodriver	INFO	Listening on 127.0.0.1:50871
+1605843240739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYsIhth"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605843244598	Marionette	INFO	Listening on port 46501
+1605843244687	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605843311269	geckodriver	INFO	Listening on 127.0.0.1:57413
+1605843311274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesz7Zjo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605843315135	Marionette	INFO	Listening on port 44653
+1605843315222	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605843320662	Marionette	INFO	Stopped listening on port 46501
+1605843328803	Marionette	INFO	Stopped listening on port 44653
+1605843467758	geckodriver	INFO	Listening on 127.0.0.1:34997
+1605843467764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKheb39"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605843471360	Marionette	INFO	Listening on port 34721
+1605843471413	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605843924182	geckodriver	INFO	Listening on 127.0.0.1:37755
+1605843924188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegWuM7C"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605843927661	Marionette	INFO	Listening on port 38747
+1605843927720	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605843959271	geckodriver	INFO	Listening on 127.0.0.1:38083
+1605843959277	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL4pg0K"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605843963588	Marionette	INFO	Listening on port 35903
+1605843963616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+1605843972806	Marionette	INFO	Stopped listening on port 35903
+1605844028311	geckodriver	INFO	Listening on 127.0.0.1:49383
+1605844028316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZTAX6S"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844032488	Marionette	INFO	Listening on port 38275
+1605844032559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605844057992	Marionette	INFO	Stopped listening on port 38275
+1605844068088	geckodriver	INFO	Listening on 127.0.0.1:47029
+1605844068093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesLQ7Ub"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844071640	Marionette	INFO	Listening on port 35953
+1605844071727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605844096312	geckodriver	INFO	Listening on 127.0.0.1:49831
+1605844096318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN1q2pw"
+1605844099586	Marionette	INFO	Stopped listening on port 35953
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844100403	Marionette	INFO	Listening on port 42601
+1605844100463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605844113075	Marionette	INFO	Stopped listening on port 42601
+1605844425147	geckodriver	INFO	Listening on 127.0.0.1:57887
+1605844425153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTswmnF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844428745	Marionette	INFO	Listening on port 34575
+1605844428791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3C0001,name=PCookieService::Msg_SetCookies) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1605844437193	Marionette	INFO	Stopped listening on port 34575
+1605844721178	geckodriver	INFO	Listening on 127.0.0.1:35353
+1605844721184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileffabOL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844724617	Marionette	INFO	Listening on port 35791
+1605844724722	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605844771121	Marionette	INFO	Stopped listening on port 35791
+1605844823206	geckodriver	INFO	Listening on 127.0.0.1:34789
+1605844823211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoPPjXw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844826766	Marionette	INFO	Listening on port 41777
+1605844826847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605844835660	Marionette	INFO	Stopped listening on port 41777
+1605844869107	geckodriver	INFO	Listening on 127.0.0.1:46797
+1605844869112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet2XkKx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844872861	Marionette	INFO	Listening on port 39593
+1605844872949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605844887318	Marionette	INFO	Stopped listening on port 39593
+1605844888159	Marionette	INFO	Stopped listening on port 38747
+1605844889080	Marionette	INFO	Stopped listening on port 34721
+1605844921077	geckodriver	INFO	Listening on 127.0.0.1:51289
+1605844921082	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTSwKC7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844924573	Marionette	INFO	Listening on port 36085
+1605844924618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605844936292	Marionette	INFO	Stopped listening on port 36085
+1605844966319	geckodriver	INFO	Listening on 127.0.0.1:51713
+1605844966325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVHWHmP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605844969748	Marionette	INFO	Listening on port 44717
+1605844969889	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 11: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+1605844986828	Marionette	INFO	Stopped listening on port 44717
+1605845022056	geckodriver	INFO	Listening on 127.0.0.1:40575
+1605845022061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilembAn2Q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845025535	Marionette	INFO	Listening on port 46641
+1605845025594	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605845036341	Marionette	INFO	Stopped listening on port 46641
+1605845057998	geckodriver	INFO	Listening on 127.0.0.1:47889
+1605845058003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0Vz0fJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845061647	Marionette	INFO	Listening on port 36509
+1605845061735	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605845071397	Marionette	INFO	Stopped listening on port 36509
+1605845240561	geckodriver	INFO	Listening on 127.0.0.1:58269
+1605845240567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem3Khn9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845244237	Marionette	INFO	Listening on port 37167
+1605845244326	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+1605845254911	Marionette	INFO	Stopped listening on port 37167
+1605845304782	geckodriver	INFO	Listening on 127.0.0.1:41625
+1605845304788	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile156As7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845308430	Marionette	INFO	Listening on port 44413
+1605845308527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605845318827	Marionette	INFO	Stopped listening on port 44413
+1605845367327	geckodriver	INFO	Listening on 127.0.0.1:35167
+1605845367337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledVCddi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845371054	Marionette	INFO	Listening on port 39005
+1605845371173	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s0.2mdn.net/8463837/1605149168411/index.html, line 280: TypeError: studio.Enabler is undefined
+1605845383296	Marionette	INFO	Stopped listening on port 39005
+1605845579747	geckodriver	INFO	Listening on 127.0.0.1:57665
+1605845579753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePVoBnz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845583328	Marionette	INFO	Listening on port 41117
+1605845583391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605845594218	Marionette	INFO	Stopped listening on port 41117
+1605845629082	geckodriver	INFO	Listening on 127.0.0.1:56295
+1605845629087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledPj70H"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845632719	Marionette	INFO	Listening on port 41711
+1605845632826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605845642437	Marionette	INFO	Stopped listening on port 41711
+1605845672216	geckodriver	INFO	Listening on 127.0.0.1:33519
+1605845672222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenhehp5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845675865	Marionette	INFO	Listening on port 39009
+1605845675958	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6C0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1605845684795	Marionette	INFO	Stopped listening on port 39009
+1605845690269	geckodriver	INFO	Listening on 127.0.0.1:39841
+1605845690274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2vx9en"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605845693650	Marionette	INFO	Listening on port 35013
+1605845693710	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+1605845701760	Marionette	INFO	Stopped listening on port 35013
+1605876846449	geckodriver	INFO	Listening on 127.0.0.1:54597
+1605876847418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1cVcG0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876861385	Marionette	INFO	Listening on port 43499
+1605876861718	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605876957119	geckodriver	INFO	Listening on 127.0.0.1:32787
+1605876957124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexhtcyL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605876961081	Marionette	INFO	Listening on port 45453
+1605876961166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605877010586	geckodriver	INFO	Listening on 127.0.0.1:54591
+1605877010592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDunmRk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877015562	Marionette	INFO	Listening on port 37261
+1605877015649	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605877137394	geckodriver	INFO	Listening on 127.0.0.1:60093
+1605877137401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7sa0kI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877141358	Marionette	INFO	Listening on port 40375
+1605877141444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605877190398	Marionette	INFO	Stopped listening on port 40375
+1605877191581	Marionette	INFO	Stopped listening on port 37261
+1605877192739	Marionette	INFO	Stopped listening on port 45453
+1605877194080	Marionette	INFO	Stopped listening on port 43499
+1605877361798	geckodriver	INFO	Listening on 127.0.0.1:43121
+1605877361803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8Aqr3e"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877366318	Marionette	INFO	Listening on port 38271
+1605877366449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605877403733	Marionette	INFO	Stopped listening on port 38271
+1605877862329	geckodriver	INFO	Listening on 127.0.0.1:36011
+1605877862335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDYpmgw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877866276	Marionette	INFO	Listening on port 45295
+1605877866373	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605877957025	geckodriver	INFO	Listening on 127.0.0.1:33177
+1605877957032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3YpbEA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605877960986	Marionette	INFO	Listening on port 39163
+1605877961075	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605878109551	geckodriver	INFO	Listening on 127.0.0.1:56337
+1605878109557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRKctRU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605878113960	Marionette	INFO	Listening on port 42601
+1605878113995	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605878189438	geckodriver	INFO	Listening on 127.0.0.1:43339
+1605878189448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile29iM8A"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605878193251	Marionette	INFO	Listening on port 34565
+1605878193286	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1605878237494	Marionette	INFO	Stopped listening on port 34565
+1605878636475	geckodriver	INFO	Listening on 127.0.0.1:47755
+1605878636482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilee0FEPT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605878640646	Marionette	INFO	Listening on port 45565
+1605878640733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605878675599	Marionette	INFO	Stopped listening on port 45565
+1605887120890	Marionette	INFO	Stopped listening on port 42601
+1605887122086	Marionette	INFO	Stopped listening on port 39163
+1605887123503	Marionette	INFO	Stopped listening on port 45295
+1605888894124	geckodriver	INFO	Listening on 127.0.0.1:34957
+1605888894131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7Ow3xZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605888897749	Marionette	INFO	Listening on port 37207
+1605888897870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605888922646	Marionette	INFO	Stopped listening on port 37207
+1605889679003	geckodriver	INFO	Listening on 127.0.0.1:58497
+1605889679009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZiqord"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605889682904	Marionette	INFO	Listening on port 35677
+1605889682961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605889736983	Marionette	INFO	Stopped listening on port 35677
+1605890161367	geckodriver	INFO	Listening on 127.0.0.1:45873
+1605890161372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyjE9bE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605890165212	Marionette	INFO	Listening on port 40321
+1605890165309	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605890648011	Marionette	INFO	Stopped listening on port 40321
+1605893951684	geckodriver	INFO	Listening on 127.0.0.1:54453
+1605893951690	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5mho8D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605893955638	Marionette	INFO	Listening on port 42409
+1605893955732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605894016679	Marionette	INFO	Stopped listening on port 42409
