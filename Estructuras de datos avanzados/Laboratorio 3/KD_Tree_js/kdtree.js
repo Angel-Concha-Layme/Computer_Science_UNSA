@@ -1,65 +1,61 @@
-//kdtree in 3D
 K = 2;
 size = 12;
-class Node{
-    constructor(point, left, right, axis){
+class Node
+{
+    constructor(point, axis)
+    {
         this.point = point;
-        this.left = left;
-        this.right = right;
-        this.axis = axis;
+        this.left = null;
+        this.right = null;
+        this.axis = axis;   // 0 = x , 1 = y
     }
 }
 
-function orderx(a, b){
-    if(a.point.x < b.point.x) return -1;
-    if(a.point.x > b.point.x) return 1;
-    return 0;
-}
-function ordery(a, b){
-    if(a.point.y < b.point.y) return -1;
-    if(a.point.y > b.point.y) return 1;
-    return 0;
+function orderx(point1, point2)
+{
+    if(point1[0] > point2[0])
+        return 1;
+    return -1;
 }
 
-function orderz(a, b){
-    if(a.point.z < b.point.z) return -1;
-    if(a.point.z > b.point.z) return 1;
-    return 0;
+function ordery(point1, point2)
+{
+    if (point1[1] > point2[1])
+        return 1;
+    return -1;
 }
 
-function build_kdtree(points , axis){
-    if(points.length == 0) return null;
-    points.sort(axis == 0 ? orderx : axis == 1 ? ordery : orderz);
-    let median = Math.floor(points.length / 2);
-    let point = points[median];
-    let left = [];
-    let right = [];
-    for(let i = 0; i < points.length; i++){
-        if(i != median){
-            if(axis == 0){
-                if(points[i].x < point.x) left.push(points[i]);
-                else right.push(points[i]);
-            }
-            else if(axis == 1){
-                if(points[i].y < point.y) left.push(points[i]);
-                else right.push(points[i]);
-            }
-            else{
-                if(points[i].z < point.z) left.push(points[i]);
-                else right.push(points[i]);
-            }
-        }
+function build_kdtree(points, depth = 0)
+{
+    if (points.length <= 0)
+        return null;
+
+    if (depth % K == 0)
+        points.sort(orderx);
+    else
+        points.sort(ordery);
+
+    let node = new Node(points[Math.floor(points.length / K)], depth % K);
+    node.left = build_kdtree(points.slice(0, points.length / K), depth + 1);
+    node.right = build_kdtree(points.slice(points.length / K + 1, points.length), depth + 1);
+
+    return node;
+}
+
+function getHeight(node)
+{
+    var height = 0;
+    var auxnode = node;
+    while(auxnode.left != null)
+    {
+        auxnode = auxnode.left;
+        height = height + 1;
     }
-    return new Node(point, build_kdtree(left, (axis + 1) % k), build_kdtree(right, (axis + 1) % k), axis);
+    return height;
 }
 
-
-function getHeight(node){
-    if(node == null) return 0;
-    return Math.max(getHeight(node.left), getHeight(node.right)) + 1;
-}
-
-function getGraf(node){
+function getGraf(node)
+{
     let r = "";
     if (node.left != null)
     {
@@ -73,7 +69,9 @@ function getGraf(node){
     }
     return r;
 }
-function generate_dot(node){
+
+function generate_dot(node)
+{
     let dot_i = `digraph G\n{\n`;
     let conten = getGraf(node);
     let dot_f = `}`;
@@ -81,110 +79,132 @@ function generate_dot(node){
     console.log(result);
 }
 
-function closest_point_brute_force(points, point){
-    let closest = points[0];
-    let closest_distance = distance(point, closest);
-    for(let i = 1; i < points.length; i++){
-        let distance_i = distance(point, points[i]);
-        if(distance_i < closest_distance){
-            closest = points[i];
-            closest_distance = distance_i;
+function closest_point_brute_force(points, point)
+{
+    var closest_point = points[0];
+    for (var i = 1; i < points.length; ++i)
+        if (distanceBetween(point, points[i], K) < distanceBetween(point, closest_point, K))
+            closest_point = points[i];
+
+    return closest_point;
+}
+
+function naive_closest_point(node, point, depth = 0, best = null)
+{
+    if(best == null)
+        best = node;
+    else if(distanceBetween(point, node.point, K) < distanceBetween(point, best.point, K))
+        best = node;
+
+    for(var i = 0; i < K; ++i)
+    {
+        if(depth % K == i)
+            if(node.point[i] > point[i] && node.left)
+                best = naive_closest_point(node.left, point, node.axis , best)
+            else if(node.right)
+                best = naive_closest_point(node.right, point, node.axis , best)
+    }
+    return best;
+}
+
+function closest_point(node, point, depth = 0, best = null)
+{
+    if(best == null)
+        best = node;
+    else if(distanceBetween(point, node.point, K) < distanceBetween(point, best.point, K))
+        best = node;
+
+    for(var i = 0; i < K; ++i)
+    {
+        if(depth == i)
+        {
+            if(abs(point[i] - node.point[i]) < distanceBetween(point, best.point, K))
+            {
+                var naive_left, naive_right;
+                if (node.left)
+                    naive_left = closest_point(node.left, point, node.axis, best);
+                if (node.right)
+                    naive_right = closest_point(node.right, point, node.axis, best);
+
+                if(node.left && node.right)
+                {
+                    if (distanceBetween(point, naive_left.point, K) < distanceBetween(point, naive_right.point, K))
+                        best = naive_left;
+                    else
+                        best = naive_right;
+                }
+                else if(node.left)
+                    best = naive_left;
+
+                else if(node.right)
+                    best = naive_right;
+            }
+            else
+            {
+                if(node.point[i] > point[i] && node.left)
+                    best = closest_point(node.left, point, node.axis , best);
+                else if(node.right)
+                    best = closest_point(node.right, point, node.axis , best);
+            }
         }
     }
-    return closest;
+
+    return best;
 }
 
-function naive_closest_point(node, point, best_distance, best_point){
-    if(node == null) return;
-    let distance_i = distance(point, node.point);
-    if(distance_i < best_distance){
-        best_distance = distance_i;
-        best_point = node.point;
+function knn(node, query_point, bpq, depth = 0)
+{
+    if(node === null) return;
+
+    bpq.insert(node.point, distanceBetween(node.point, query_point, K)); // Insertamos el nodo visitado a la pila de prioridades
+    var axis = depth % K;
+    var next_branch = null;
+    var opposite_branch = null;
+
+    if(query_point[axis] < node.point[axis])
+    {
+        next_branch = node.left;
+        opposite_branch = node.right;
     }
-    let axis = node.axis;
-    let compare = (axis == 0 ? point.x : axis == 1 ? point.y : point.z);
-    if(compare < node.point[axis]){
-        naive_closest_point(node.left, point, best_distance, best_point);
+    else
+    {
+        next_branch = node.right;
+        opposite_branch = node.left;
     }
-    else{
-        naive_closest_point(node.right, point, best_distance, best_point);
-    }
-    return best_point;
+
+    knn(next_branch, query_point, bpq, depth + 1);
+
+    // si aun hay espacio en la pila y ademas el de prioridad mayor es > a y_1-y_0
+    if(bpq.queue.length < bpq.size || Math.abs(query_point[axis] - node.point[axis]) < bpq.queue[bpq.queue.length - 1].priority)
+        knn(opposite_branch, query_point, bpq, depth + 1);
+
+    return bpq;
 }
 
-function closest_point(node, point, best_distance, best_point){
-    if(node == null) return;
-    let distance_i = distance(point, node.point);
-    if(distance_i < best_distance){
-        best_distance = distance_i;
-        best_point = node.point;
-    }
-    let axis = node.axis;
-    let compare = (axis == 0 ? point.x : axis == 1 ? point.y : point.z);
-    if(compare < node.point[axis]){
-        closest_point(node.left, point, best_distance, best_point);
-    }
-    else{
-        closest_point(node.right, point, best_distance, best_point);
-    }
-    return best_point;
-}
+function range_query_circle(node, center, radio, queue)
+{
+    var bpq = new BPQ(size);
+    knn(node, center, bpq);
 
-function knn(node, point, k, best_points){
-    if(node == null) return;
-    let distance_i = distance(point, node.point);
-    if(best_points.length < k){
-        best_points.push(node.point);
-        best_points.sort(axis == 0 ? orderx : axis == 1 ? ordery : orderz);
-    }
-    else{
-        if(distance_i < best_points[k - 1][0]){
-            best_points.push(node.point);
-            best_points.sort(axis == 0 ? orderx : axis == 1 ? ordery : orderz);
-            best_points.pop();
-        }
-    }
-    let axis = node.axis;
-    let compare = (axis == 0 ? point.x : axis == 1 ? point.y : point.z);
-    if(compare < node.point[axis]){
-        knn(node.left, point, k, best_points);
-    }
-    else{
-        knn(node.right, point, k, best_points);
-    }
-    return best_points;
-}
-
-function range_query_circle(node, point, radius, queue){
-    if(node == null) return;
-    let distance_i = distance(point, node.point);
-    if(distance_i < radius){
-        queue.push(node.point);
-    }
-    let axis = node.axis;
-    let compare = (axis == 0 ? point.x : axis == 1 ? point.y : point.z);
-    if(compare < node.point[axis]){
-        range_query_circle(node.left, point, radius, queue);
-    }
-    else{
-        range_query_circle(node.right, point, radius, queue);
+    var i = 0;
+    while(i < size && bpq.queue[i].priority <= radio)
+    {
+        queue.push(bpq.queue[i].data);
+        ++i;
     }
     return queue;
 }
 
-function range_query_rectangle(node, center, width, height, queue){
-    if(node == null) return;
-    let distance_i = distance(center, node.point);
-    if(distance_i < width / 2 && distance_i < height / 2){
-        queue.push(node.point);
-    }
-    let axis = node.axis;
-    let compare = (axis == 0 ? center.x : axis == 1 ? center.y : center.z);
-    if(compare < node.point[axis]){
-        range_query_rectangle(node.left, center, width, height, queue);
-    }
-    else{
-        range_query_rectangle(node.right, center, width, height, queue);
+function range_query_rec(node, center, width, height, queue)
+{
+    var bpq = new BPQ(size);
+    knn(node, center, bpq);
+
+    var i = 0;
+    while(i < size && Math.abs(bpq.queue[i].data[0] - center[0]) <= width && Math.abs(bpq.queue[i].data[1] - center[1]) <= height)
+    {
+        queue.push(bpq.queue[i].data);
+        ++i;
     }
     return queue;
 }
