@@ -1,0 +1,3 @@
+/home/angel/Escritorio/Lab4/CMakeFiles/rebuild_cache.dir
+/home/angel/Escritorio/Lab4/CMakeFiles/edit_cache.dir
+/home/angel/Escritorio/Lab4/CMakeFiles/runTests.dir
