@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/angel/Escritorio/Lab4/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/runTests.dir/tests.cpp.o -c /home/angel/Escritorio/Lab4/tests.cpp",
+  "file": "/home/angel/Escritorio/Lab4/tests.cpp"
+}
+]
