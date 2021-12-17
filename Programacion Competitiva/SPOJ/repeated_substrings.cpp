@@ -94,7 +94,6 @@ int main(){
     pos=sa.sa[pos];
     for(int i=pos;i<=pos+ans-1;i++) printf("%c",S[i]);puts("");
     return 0;
-
-
+    
 }
 
