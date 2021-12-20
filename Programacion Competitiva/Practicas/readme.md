@@ -7,7 +7,7 @@
 
 **Grupo**: B
 
-**Semestre** 2021-B*
+**Semestre** 2021-B
 
 ## Descripción:
 Repositorio para almacenar códigos en C++ y Python de ejercicios del Curso de Programación Competitiva - 
