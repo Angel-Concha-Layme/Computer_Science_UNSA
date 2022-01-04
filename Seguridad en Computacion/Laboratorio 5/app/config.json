@@ -1,0 +1,18 @@
+{
+  "output": "..",
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Hash Functions",
+    "owner": "fparedese@unsa.edu.pe",
+    "description": "Hash Functions en JavaScript"
+  },
+  "plugins": [
+  ],
+  "pug": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}
