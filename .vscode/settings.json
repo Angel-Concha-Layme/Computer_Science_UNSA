@@ -79,5 +79,6 @@
         "string_view": "cpp",
         "variant": "cpp"
     },
-    "cmake.sourceDirectory": "${workspaceFolder}/Compiladores/Proyecto final"
+    "cmake.sourceDirectory": "${workspaceFolder}/Compiladores/Proyecto final",
+    "cmake.configureOnOpen": true
 }
