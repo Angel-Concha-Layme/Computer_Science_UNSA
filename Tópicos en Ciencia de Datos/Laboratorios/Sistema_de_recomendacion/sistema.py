@@ -89,8 +89,9 @@ def euclidean(rating1, rating2):
     commonRatings = False 
     for key in rating1:
         if key in rating2:
-            distance += pow(abs(rating1[key] - rating2[key]), 2)
-            commonRatings = True
+            if rating1[key] != 0 and rating2[key] != 0:
+                distance += pow(rating1[key] - rating2[key], 2)
+                commonRatings = True
     if commonRatings:
         return sqrt(distance)
     else:
@@ -146,7 +147,6 @@ print(pearson(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Hailey']
 #---------------------------------------------------------------------------------------------------------------------------------#
 ### PRUEBAS CON MOVIE_RATINGS
 #---------------------------------------------------------------------------------------------------------------------------------#
-
 
 #---------------------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------------------#
