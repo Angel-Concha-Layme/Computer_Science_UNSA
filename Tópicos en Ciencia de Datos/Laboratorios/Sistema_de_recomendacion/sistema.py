@@ -46,6 +46,34 @@ def cosine_similarity(rating1, rating2):
 
 
 #---------------------------------------------------------------------------------------------------------------------------------#
+### METRICA DE DISTANCIA COSENO 2
+#---------------------------------------------------------------------------------------------------------------------------------#
+def cosine_similarity_2(rating1, rating2):
+    #compute numerator
+    x = 0
+    y = 0
+    for key in rating1:
+        if key in rating2:
+            x += rating1[key]*rating2[key]
+    for key in rating2:
+        if key in rating1:
+            y += rating2[key]*rating1[key]   
+    
+    x = sqrt(x) 
+    y = sqrt(y)
+
+    #compute denominator
+    sum_xy = 0
+    for key in rating1:
+        if key in rating2:
+            if rating1[key] != 0 and rating2[key] != 0: 
+                sum_xy += rating1[key]*rating2[key]
+    return sum_xy/(x*y)
+#---------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------#
+
+
+#---------------------------------------------------------------------------------------------------------------------------------#
 ### METRICA DE DISTANCIA MINKOWSKI: Podemos generalizar la distancia de Manhattan y la distancia euclidiana a lo que se llama la métrica de distancia de Minkowski:
 #---------------------------------------------------------------------------------------------------------------------------------#
 def minkowski(rating1, rating2, r):
@@ -123,7 +151,7 @@ def pearson(rating1, rating2):
     #compute denominator
     denominator = sqrt(sum_x2 - pow(sum_x,2)/n)*sqrt(sum_y2 - pow(sum_y,2)/n)
     if denominator == 0:
-        return 0
+        return None
     else:
         return (sum_xy - (sum_x*sum_y)/n)/denominator
 #---------------------------------------------------------------------------------------------------------------------------------#
@@ -136,10 +164,10 @@ def pearson(rating1, rating2):
 #---------------------------------------------------------------------------------------------------------------------------------#
 ### PRUEBAS CON MUSIC_RATINGS
 #---------------------------------------------------------------------------------------------------------------------------------#
-print(euclidean(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Sam']))
-print(manhattan(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
-print(cosine_similarity(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Dan']))
-print(pearson(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Hailey']))
+#print(euclidean(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Sam']))
+#print(manhattan(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
+#print(cosine_similarity(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Dan']))
+#print(pearson(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Hailey']))
 #---------------------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------------------#
 
@@ -147,6 +175,12 @@ print(pearson(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Hailey']
 #---------------------------------------------------------------------------------------------------------------------------------#
 ### PRUEBAS CON MOVIE_RATINGS
 #---------------------------------------------------------------------------------------------------------------------------------#
+#print(cosine_similarity(Processed_Movie_Ratings['Jessica'], Processed_Movie_Ratings['Jeff']))
+#print(pearson(Processed_Movie_Ratings['Matt'], Processed_Movie_Ratings['Josh']))
+print(cosine_similarity(Processed_Movie_Ratings['Matt'], Processed_Movie_Ratings['Josh']))
+#print(euclidean(Processed_Movie_Ratings['Matt'], Processed_Movie_Ratings['Josh']))
+#print(manhattan(Processed_Movie_Ratings['ben'], Processed_Movie_Ratings['Gary']))
+#---------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------#
 
-#---------------------------------------------------------------------------------------------------------------------------------#
-#---------------------------------------------------------------------------------------------------------------------------------#
+#print(pearson(Processed_Movie_Ratings['Josh'], Processed_Movie_Ratings['Matt']))
