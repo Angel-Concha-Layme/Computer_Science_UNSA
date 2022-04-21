@@ -112,23 +112,19 @@ def pearson(rating1, rating2):
     n = 0
     for key in rating1:
         if key in rating2:
-            n += 1
-            x = rating1[key]
-            y = rating2[key]
-            sum_xy += x * y
-            sum_x += x
-            sum_y += y
-            sum_x2 += pow(x, 2)
-            sum_y2 += pow(y, 2)
-    if n == 0:
-        return 0
-
+            if rating1[key] != 0 and rating2[key] != 0:
+                n += 1
+                sum_xy += rating1[key]*rating2[key]
+                sum_x += rating1[key]
+                sum_y += rating2[key]
+                sum_x2 += pow(rating1[key],2)
+                sum_y2 += pow(rating2[key],2)
     #compute denominator
-    denominator = sqrt(sum_x2 - pow(sum_x, 2) / n) * sqrt(sum_y2 - pow(sum_y, 2) / n)
+    denominator = sqrt(sum_x2 - pow(sum_x,2)/n)*sqrt(sum_y2 - pow(sum_y,2)/n)
     if denominator == 0:
         return 0
     else:
-        return (sum_xy - (sum_x * sum_y) / n) / denominator
+        return (sum_xy - (sum_x*sum_y)/n)/denominator
 #---------------------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------------------#
 
@@ -148,3 +144,6 @@ def pearson(rating1, rating2):
 #print(cosine_similarity(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
 
 
+print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
+print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Hailey']))
+print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Jordyn']))
