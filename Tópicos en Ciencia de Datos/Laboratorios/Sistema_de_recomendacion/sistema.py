@@ -70,7 +70,7 @@ def manhattan(rating1, rating2):
     distance = 0
     commonRatings = False 
     for key in rating1:
-        if key in rating2:
+        if key in rating2 and rating1[key] != 0 and rating2[key] != 0:
             distance += abs(rating1[key] - rating2[key])
             commonRatings = True
     if commonRatings:
@@ -139,10 +139,12 @@ def pearson(rating1, rating2):
 #print(cosine_similarity(Processed_Movie_Ratings['Jeff'], Processed_Movie_Ratings['Jessica']))
 
 
-
-
+#print(manhattan(Processed_Music_Ratings['Hailey'], Processed_Music_Ratings['Veronica']))
+#print(manhattan(Processed_Music_Ratings['Hailey'], Processed_Music_Ratings['Jordyn']))
+#print(manhattan(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
     
-
-
+    
+#print(cosine_similarity(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Veronica']))
+#print(cosine_similarity(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
 
 
