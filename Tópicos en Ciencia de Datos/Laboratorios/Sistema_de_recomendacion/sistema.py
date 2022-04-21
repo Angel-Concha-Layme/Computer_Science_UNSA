@@ -1,6 +1,8 @@
+from cgi import print_arguments
 from math import sqrt
 from re import X
 from tkinter import Y
+from traceback import print_tb
 import pandas as pd  
 import numpy as np
 
@@ -133,22 +135,8 @@ def pearson(rating1, rating2):
 
 
 
-
-
-#print(euclidean(users['Angelica'], users['Bill']))\
-#print(euclidean(users['Hailey'], users['Veronica']))
-#print(euclidean(users['Hailey'], users['Jordyn']))
-#print(pearson(users['Angelica'], users['Bill']))
-
-#print(manhattan(users['Hailey'], users['Veronica']))
-#print(manhattan(users['Hailey'], users['Jordyn']))
-
-#print(pearson(users['Angelica'], users['Bill']) )
-#print(pearson(users['Angelica'], users['Jordyn']))
-
-#print(cosine_similarity(Processed_Movie_Ratings['Jeff'], Processed_Movie_Ratings['Jessica']))
 #print(cosine_similarity(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Veronica']))
-
+#print(cosine_similarity(Processed_Movie_Ratings['Jeff'], Processed_Movie_Ratings['Jessica']))
 
 
 
