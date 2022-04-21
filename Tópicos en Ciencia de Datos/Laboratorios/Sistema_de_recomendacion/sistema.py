@@ -131,20 +131,22 @@ def pearson(rating1, rating2):
 
 
 
-#print(cosine_similarity(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Veronica']))
-#print(cosine_similarity(Processed_Movie_Ratings['Jeff'], Processed_Movie_Ratings['Jessica']))
+
+#---------------------------------------------------------------------------------------------------------------------------------#
+### PRUEBAS CON MUSIC_RATINGS
+#---------------------------------------------------------------------------------------------------------------------------------#
+print(euclidean(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Sam']))
+print(manhattan(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
+print(cosine_similarity(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Dan']))
+print(pearson(Processed_Music_Ratings['Chan'], Processed_Music_Ratings['Hailey']))
+#---------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------#
 
 
-#print(manhattan(Processed_Music_Ratings['Hailey'], Processed_Music_Ratings['Veronica']))
-#print(manhattan(Processed_Music_Ratings['Hailey'], Processed_Music_Ratings['Jordyn']))
-#print(manhattan(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
-    
-    
-#print(cosine_similarity(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Veronica']))
-#print(cosine_similarity(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
+#---------------------------------------------------------------------------------------------------------------------------------#
+### PRUEBAS CON MOVIE_RATINGS
+#---------------------------------------------------------------------------------------------------------------------------------#
 
 
-#print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
-#print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Hailey']))
-#print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Jordyn']))
-#print(pearson(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
+#---------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------#
