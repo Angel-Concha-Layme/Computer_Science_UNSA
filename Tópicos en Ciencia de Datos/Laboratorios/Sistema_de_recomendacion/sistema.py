@@ -144,6 +144,7 @@ def pearson(rating1, rating2):
 #print(cosine_similarity(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
 
 
-print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
-print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Hailey']))
-print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Jordyn']))
+#print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Bill']))
+#print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Hailey']))
+#print(pearson(Processed_Music_Ratings['Angelica'], Processed_Music_Ratings['Jordyn']))
+#print(pearson(Processed_Movie_Ratings['Bryan'], Processed_Movie_Ratings['Thomas']))
