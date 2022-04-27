@@ -442,3 +442,4 @@ print(manhattan(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Ha
 print(manhattan(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Jordyn']))
 print(manhattan(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Sam']))
 print(manhattan(Processed_Music_Ratings['Veronica'], Processed_Music_Ratings['Veronica']))
+
