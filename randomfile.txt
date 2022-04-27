@@ -1,0 +1,14 @@
+     userId  movieId  rating   timestamp                        title                                       genres
+0         1        1     4.0   964982703             Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+1         5        1     4.0   847434962             Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+2         7        1     4.5  1106635946             Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+3        15        1     2.5  1510577970             Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+4        17        1     4.5  1305696483             Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+..      ...      ...     ...         ...                          ...                                          ...
+495     369       47     3.5  1237083091  Seven (a.k.a. Se7en) (1995)                             Mystery|Thriller
+496     370       47     3.5  1159162973  Seven (a.k.a. Se7en) (1995)                             Mystery|Thriller
+497     372       47     5.0   874417240  Seven (a.k.a. Se7en) (1995)                             Mystery|Thriller
+498     373       47     5.0   846829997  Seven (a.k.a. Se7en) (1995)                             Mystery|Thriller
+499     379       47     3.0   847397459  Seven (a.k.a. Se7en) (1995)                             Mystery|Thriller
+
+[500 rows x 6 columns]
