@@ -1,0 +1,16 @@
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Tutorial_01/CMakeFiles/Tutorial_01_glfw.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Tutorial_01/CMakeFiles/edit_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Tutorial_01/CMakeFiles/rebuild_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Tutorial_02/CMakeFiles/Tutorial_02_glfw.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Tutorial_02/CMakeFiles/edit_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Tutorial_02/CMakeFiles/rebuild_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Hello_Triangle/CMakeFiles/Hello_Triangle_glfw.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Hello_Triangle/CMakeFiles/edit_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/Hello_Triangle/CMakeFiles/rebuild_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/hw0/CMakeFiles/hw0.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/hw0/CMakeFiles/edit_cache.dir
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/out/build/x64-Debug/src/hw0/CMakeFiles/rebuild_cache.dir
