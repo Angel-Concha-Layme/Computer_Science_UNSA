@@ -1,9 +1,4 @@
 # CMake generation dependency list for this directory.
-C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/CMakeLists.txt
-C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeCCompiler.cmake
-C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake
-C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeRCCompiler.cmake
-C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeSystem.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c
 C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCInformation.cmake
@@ -97,3 +92,8 @@ C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/CMakeLists.txt
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeCCompiler.cmake
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeRCCompiler.cmake
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CMakeSystem.cmake

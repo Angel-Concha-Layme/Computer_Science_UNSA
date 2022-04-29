@@ -1,4 +1,4 @@
-# Install script for directory: C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Hello_Triangle
+# Install script for directory: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Hello_Triangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
