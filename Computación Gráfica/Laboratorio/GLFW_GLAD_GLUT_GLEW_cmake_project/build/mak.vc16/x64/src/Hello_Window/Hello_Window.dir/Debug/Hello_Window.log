@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Hello_Window/CMakeLists.txt
-  glad.c
-  main.cpp
+﻿  main.cpp
 glfw3.lib(init.obj) : warning LNK4099: no se encontró PDB 'glfw.pdb' con 'glfw3.lib(init.obj)' o en 'C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Hello_Window\Debug\glfw.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
 glfw3.lib(window.obj) : warning LNK4099: no se encontró PDB 'glfw.pdb' con 'glfw3.lib(window.obj)' o en 'C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Hello_Window\Debug\glfw.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
 glfw3.lib(input.obj) : warning LNK4099: no se encontró PDB 'glfw.pdb' con 'glfw3.lib(input.obj)' o en 'C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Hello_Window\Debug\glfw.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
