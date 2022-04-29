@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/hw0/CMakeLists.txt
 C:/Program Files/CMake/share/cmake-3.23/Modules/FindOpenGL.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/hw0/CMakeLists.txt

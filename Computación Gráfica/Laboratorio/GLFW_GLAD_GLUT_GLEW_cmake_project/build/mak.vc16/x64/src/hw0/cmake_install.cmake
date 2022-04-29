@@ -1,4 +1,4 @@
-# Install script for directory: C:/Mis archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/hw0
+# Install script for directory: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/hw0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
