@@ -18,13 +18,9 @@ def formMatrix(): # Forma la matriz de datos
         else:  
             matrix[data["userId"]] = {data["movieId"]: data["rating"]}
     f.close()
-    #imprimir la primera fila de la matriz
-    print(matrix["1"])
     #print(matrix)
 
 # {'1': {'1': '4', '3': '4', '6': '4'}, '3': {'72378': '0.5'}, '4': {'21': '3', '32': '2'}, '5': {'608': '3'}}
     return matrix
-
- 
 
 formMatrix()
