@@ -1,0 +1,626 @@
+"movieId","userId","rating"
+"Alien","Patrick C", 1.0
+"Alien","Heather", 0.0
+"Alien","Bryan", 2.0
+"Alien","Patrick T", 0.0
+"Alien","Thomas", 5.0
+"Alien","aaron", 4.0
+"Alien","vanessa", 0.0
+"Alien","greg", 0.0
+"Alien","brian", 4.0
+"Alien","ben", 0.0
+"Alien","Katherine", 0.0
+"Alien","Jonathan", 0.0
+"Alien","Zwe", 0.0
+"Alien","Erin", 0.0
+"Alien","Chris", 2.0
+"Alien","Zak", 0.0
+"Alien","Matt", 0.0
+"Alien","Chris.1", 4.0
+"Alien","Josh", 3.0
+"Alien","Amy", 0.0
+"Alien","Valerie", 0.0
+"Alien","Gary", 2.0
+"Alien","Stephen", 5.0
+"Alien","Jessica", 0.0
+"Alien","Jeff", 4.0
+"Avatar", "Patrick C", 4.0
+"Avatar","Heather", 5.0
+"Avatar","Bryan", 5.0
+"Avatar","Patrick T", 4.0
+"Avatar","Thomas", 2.0
+"Avatar","aaron", 0.0
+"Avatar","vanessa", 4.0
+"Avatar","greg", 3.0
+"Avatar","brian", 0.0
+"Avatar","ben", 3.0
+"Avatar","Katherine", 5.0
+"Avatar","Jonathan", 4.0
+"Avatar","Zwe", 4.0
+"Avatar","Erin", 4.0
+"Avatar","Chris", 1.0
+"Avatar","Zak", 5.0
+"Avatar","Matt", 0.0
+"Avatar","Chris.1", 0.0
+"Avatar","Josh", 4.0
+"Avatar","Amy", 3.0
+"Avatar","Valerie", 2.0
+"Avatar","Gary", 1.0
+"Avatar","Stephen", 4.0
+"Avatar","Jessica", 0.0
+"Avatar","Jeff", 4.0
+"Blade Runner", "Patrick C", 5.0
+"Blade Runner","Heather", 0.0
+"Blade Runner","Bryan", 0.0
+"Blade Runner","Patrick T", 0.0
+"Blade Runner","Thomas", 5.0
+"Blade Runner","aaron", 4.0
+"Blade Runner","vanessa", 0.0
+"Blade Runner","greg", 1.0
+"Blade Runner","brian", 5.0
+"Blade Runner","ben", 5.0
+"Blade Runner","Katherine", 0.0
+"Blade Runner","Jonathan", 0.0
+"Blade Runner","Zwe", 0.0
+"Blade Runner","Erin", 0.0
+"Blade Runner","Chris", 5.0
+"Blade Runner","Zak", 0.0
+"Blade Runner","Matt", 0.0
+"Blade Runner","Chris.1", 3.0
+"Blade Runner","Josh", 0.0
+"Blade Runner","Amy", 3.0
+"Blade Runner","Valerie", 3.0
+"Blade Runner","Gary", 1.0
+"Blade Runner","Stephen", 0.0
+"Blade Runner","Jessica", 0.0
+"Blade Runner","Jeff", 5.0
+"Braveheart", "Patrick C", 4.0
+"Braveheart","Heather", 0.0
+"Braveheart","Bryan", 5.0
+"Braveheart","Patrick T", 0.0
+"Braveheart","Thomas", 4.0
+"Braveheart","aaron", 4.0
+"Braveheart","vanessa", 3.0
+"Braveheart","greg", 4.0
+"Braveheart","brian", 4.0
+"Braveheart","ben", 0.0
+"Braveheart","Katherine", 3.0
+"Braveheart","Jonathan", 4.0
+"Braveheart","Zwe", 3.0
+"Braveheart","Erin", 4.0
+"Braveheart","Chris", 2.0
+"Braveheart","Zak", 5.0
+"Braveheart","Matt", 0.0
+"Braveheart","Chris.1", 4.0
+"Braveheart","Josh", 0.0
+"Braveheart","Amy", 3.0
+"Braveheart","Valerie", 4.0
+"Braveheart","Gary", 5.0
+"Braveheart","Stephen", 5.0
+"Braveheart","Jessica", 0.0
+"Braveheart","Jeff", 4.0
+"Dodgeball","Patrick C", 5.0
+"Dodgeball","Heather", 4.0
+"Dodgeball","Bryan", 3.0
+"Dodgeball","Patrick T", 2.0
+"Dodgeball","Thomas", 4.0
+"Dodgeball","aaron", 0.0
+"Dodgeball","vanessa", 4.0
+"Dodgeball","greg", 5.0 
+"Dodgeball","brian", 3.0
+"Dodgeball","ben", 4.0
+"Dodgeball","Katherine", 5.0
+"Dodgeball","Jonathan", 5.0
+"Dodgeball","Zwe", 3.0
+"Dodgeball","Erin", 3.0
+"Dodgeball","Chris", 3.0
+"Dodgeball","Zak", 3.0
+"Dodgeball","Matt", 0.0
+"Dodgeball","Chris.1", 3.0
+"Dodgeball","Josh", 0.0
+"Dodgeball","Amy", 4.0
+"Dodgeball","Valerie", 3.0
+"Dodgeball","Gary", 4.0
+"Dodgeball","Stephen", 3.0
+"Dodgeball","Jessica", 0.0
+"Dodgeball","Jeff", 3.0
+"Forest Gump","Patrick C", 4.0
+"Forest Gump","Heather", 5.0
+"Forest Gump","Bryan", 4.0
+"Forest Gump","Patrick T", 3.0
+"Forest Gump","Thomas", 3.0
+"Forest Gump","aaron", 0.0
+"Forest Gump","vanessa", 4.0
+"Forest Gump","greg", 5.0 
+"Forest Gump","brian", 5.0
+"Forest Gump","ben", 5.0
+"Forest Gump","Katherine", 5.0
+"Forest Gump","Jonathan", 5.0
+"Forest Gump","Zwe", 5.0
+"Forest Gump","Erin", 5.0
+"Forest Gump","Chris", 3.0
+"Forest Gump","Zak", 5.0
+"Forest Gump","Matt", 4.0
+"Forest Gump","Chris.1", 5.0
+"Forest Gump","Josh", 4.0
+"Forest Gump","Amy", 4.0
+"Forest Gump","Valerie", 5.0
+"Forest Gump","Gary", 4.0
+"Forest Gump","Stephen", 1.0
+"Forest Gump","Jessica", 4.0
+"Forest Gump","Jeff", 4.0}
+"Gladiator", "Patrick C", 0.0
+"Gladiator","Heather", 5.0
+"Gladiator","Bryan", 5.0
+"Gladiator","Patrick T", 0.0
+"Gladiator","Thomas", 4.0
+"Gladiator","aaron", 4.0
+"Gladiator","vanessa", 4.0
+"Gladiator","greg", 5.0 
+"Gladiator","brian", 5.0
+"Gladiator","ben", 5.0
+"Gladiator","Katherine", 3.0
+"Gladiator","Jonathan", 4.0
+"Gladiator","Zwe", 3.0
+"Gladiator","Erin", 0.0
+"Gladiator","Chris", 3.0
+"Gladiator","Zak", 5.0
+"Gladiator","Matt", 0.0
+"Gladiator","Chris.1", 3.0
+"Gladiator","Josh", 4.0
+"Gladiator","Amy", 0.0
+"Gladiator","Valerie", 3.0
+"Gladiator","Gary", 3.0
+"Gladiator","Stephen", 4.0
+"Gladiator","Jessica", 0.0
+"Gladiator","Jeff", 4.0
+"Jaws","Patrick C", 0.0
+"Jaws","Heather", 5.0
+"Jaws","Bryan", 4.0
+"Jaws","Patrick T", 0.0
+"Jaws","Thomas", 4.0
+"Jaws","aaron", 0.0
+"Jaws","vanessa", 2.0
+"Jaws","greg", 3.0 
+"Jaws","brian", 3.0
+"Jaws","ben", 1.0
+"Jaws","Katherine", 0.0
+"Jaws","Jonathan", 3.0
+"Jaws","Zwe", 2.0
+"Jaws","Erin", 3.0
+"Jaws","Chris", 2.0
+"Jaws","Zak", 0.0
+"Jaws","Matt", 0.0
+"Jaws","Chris.1", 5.0
+"Jaws","Josh", 5.0
+"Jaws","Amy", 3.0
+"Jaws","Valerie", 2.0
+"Jaws","Gary", 4.0
+"Jaws","Stephen", 2.0
+"Jaws","Jessica", 3.0
+"Jaws","Jeff", 5.0
+"Kazaam","Patrick C", 2.0
+"Kazaam","Heather", 0.0
+"Kazaam","Bryan", 3.0
+"Kazaam","Patrick T", 5.0
+"Kazaam","Thomas", 2.0
+"Kazaam","aaron", 0.0
+"Kazaam","vanessa", 0.0
+"Kazaam","greg", 0.0 
+"Kazaam","brian", 1.0
+"Kazaam","ben", 0.0
+"Kazaam","Katherine", 2.0
+"Kazaam","Jonathan", 2.0
+"Kazaam","Zwe", 2.0
+"Kazaam","Erin", 1.0
+"Kazaam","Chris", 1.0
+"Kazaam","Zak", 1.0
+"Kazaam","Matt", 0.0
+"Kazaam","Chris.1", 0.0
+"Kazaam","Josh", 0.0
+"Kazaam","Amy", 1.0
+"Kazaam","Valerie", 1.0
+"Kazaam","Gary", 1.0
+"Kazaam","Stephen", 0.0
+"Kazaam","Jessica", 1.0
+"Kazaam","Jeff", 1.0
+"Lord of the Rings","Patrick C", 4.0
+"Lord of the Rings","Heather", 4.0
+"Lord of the Rings","Bryan", 3.0
+"Lord of the Rings","Patrick T", 2.0
+"Lord of the Rings","Thomas", 0.0
+"Lord of the Rings","aaron", 5.0
+"Lord of the Rings","vanessa", 2.0
+"Lord of the Rings","greg", 3.0 
+"Lord of the Rings","brian", 5.0
+"Lord of the Rings","ben", 2.0
+"Lord of the Rings","Katherine", 4.0
+"Lord of the Rings","Jonathan", 4.0
+"Lord of the Rings","Zwe", 3.0
+"Lord of the Rings","Erin", 4.0
+"Lord of the Rings","Chris", 3.0
+"Lord of the Rings","Zak", 4.0
+"Lord of the Rings","Matt", 1.0
+"Lord of the Rings","Chris.1", 4.0
+"Lord of the Rings","Josh", 0.0
+"Lord of the Rings","Amy", 0.0
+"Lord of the Rings","Valerie", 5.0
+"Lord of the Rings","Gary", 3.0
+"Lord of the Rings","Stephen", 5.0
+"Lord of the Rings","Jessica", 3.0
+"Lord of the Rings","Jeff", 3.0
+"Napolean Dynamite","Patrick C", 3.0
+"Napolean Dynamite","Heather", 4.0
+"Napolean Dynamite","Bryan", 1.0
+"Napolean Dynamite","Patrick T", 1.0
+"Napolean Dynamite","Thomas", 5.0
+"Napolean Dynamite","aaron", 1.0
+"Napolean Dynamite","vanessa", 4.0
+"Napolean Dynamite","greg", 4.0 
+"Napolean Dynamite","brian", 4.0
+"Napolean Dynamite","ben", 4.0
+"Napolean Dynamite","Katherine", 2.0
+"Napolean Dynamite","Jonathan", 3.0
+"Napolean Dynamite","Zwe", 3.0
+"Napolean Dynamite","Erin", 2.0
+"Napolean Dynamite","Chris", 1.0
+"Napolean Dynamite","Zak", 1.0
+"Napolean Dynamite","Matt", 3.0
+"Napolean Dynamite","Chris.1", 1.0
+"Napolean Dynamite","Josh", 0.0
+"Napolean Dynamite","Amy", 2.0
+"Napolean Dynamite","Valerie", 5.0
+"Napolean Dynamite","Gary", 4.0
+"Napolean Dynamite","Stephen", 2.0
+"Napolean Dynamite","Jessica", 2.0
+"Napolean Dynamite","Jeff", 3.0
+"Old School","Patrick C", 3.0
+"Old School","Heather", 0.0
+"Old School","Bryan", 4.0
+"Old School","Patrick T", 5.0
+"Old School","Thomas", 5.0
+"Old School","aaron", 0.0
+"Old School","vanessa", 3.0
+"Old School","greg", 5.0 
+"Old School","brian", 4.0
+"Old School","ben", 4.0
+"Old School","Katherine", 0.0
+"Old School","Jonathan", 5.0
+"Old School","Zwe", 4.0
+"Old School","Erin", 0.0
+"Old School","Chris", 5.0
+"Old School","Zak", 5.0
+"Old School","Matt", 0.0
+"Old School","Chris.1", 4.0
+"Old School","Josh", 0.0
+"Old School","Amy", 3.0
+"Old School","Valerie", 3.0
+"Old School","Gary", 5.0
+"Old School","Stephen", 0.0
+"Old School","Jessica", 2.0
+"Old School","Jeff", 3.0
+"Pootie Tang","Patrick C", 0.0
+"Pootie Tang","Heather", 0.0
+"Pootie Tang","Bryan", 1.0
+"Pootie Tang","Patrick T", 1.0
+"Pootie Tang","Thomas", 0.0
+"Pootie Tang","aaron", 0.0
+"Pootie Tang","vanessa", 1.0
+"Pootie Tang","greg", 0.0 
+"Pootie Tang","brian", 1.0
+"Pootie Tang","ben", 1.0
+"Pootie Tang","Katherine", 0.0
+"Pootie Tang","Jonathan", 0.0
+"Pootie Tang","Zwe", 2.0
+"Pootie Tang","Erin", 0.0
+"Pootie Tang","Chris", 3.0
+"Pootie Tang","Zak", 0.0
+"Pootie Tang","Matt", 0.0
+"Pootie Tang","Chris.1", 1.0
+"Pootie Tang","Josh", 0.0
+"Pootie Tang","Amy", 0.0
+"Pootie Tang","Valerie", 0.0
+"Pootie Tang","Gary", 0.0
+"Pootie Tang","Stephen", 0.0
+"Pootie Tang","Jessica", 0.0
+"Pootie Tang","Jeff", 5.0
+"Pulp Fiction","Patrick C", 0.0
+"Pulp Fiction","Heather", 0.0
+"Pulp Fiction","Bryan", 4.0
+"Pulp Fiction","Patrick T", 0.0
+"Pulp Fiction","Thomas", 4.0
+"Pulp Fiction","aaron", 3.0
+"Pulp Fiction","vanessa", 0.0
+"Pulp Fiction","greg", 4.0 
+"Pulp Fiction","brian", 5.0
+"Pulp Fiction","ben", 4.0
+"Pulp Fiction","Katherine", 0.0
+"Pulp Fiction","Jonathan", 5.0
+"Pulp Fiction","Zwe", 4.0
+"Pulp Fiction","Erin", 0.0
+"Pulp Fiction","Chris", 5.0
+"Pulp Fiction","Zak", 5.0
+"Pulp Fiction","Matt", 0.0
+"Pulp Fiction","Chris.1", 5.0
+"Pulp Fiction","Josh", 0.0
+"Pulp Fiction","Amy", 4.0
+"Pulp Fiction","Valerie", 3.0
+"Pulp Fiction","Gary", 3.0
+"Pulp Fiction","Stephen", 3.0
+"Pulp Fiction","Jessica", 4.0
+"Pulp Fiction","Jeff", 3.0
+"Scarface","Patrick C", 0.0
+"Scarface","Heather", 4.0
+"Scarface","Bryan", 0.0
+"Scarface","Patrick T", 0.0
+"Scarface","Thomas", 5.0
+"Scarface","aaron", 4.0
+"Scarface","vanessa", 4.0
+"Scarface","greg", 4.0 
+"Scarface","brian", 0.0
+"Scarface","ben", 4.0
+"Scarface","Katherine", 0.0
+"Scarface","Jonathan", 4.0
+"Scarface","Zwe", 0.0
+"Scarface","Erin", 0.0
+"Scarface","Chris", 3.0
+"Scarface","Zak", 3.0
+"Scarface","Matt", 0.0
+"Scarface","Chris.1", 2.0
+"Scarface","Josh", 0.0
+"Scarface","Amy", 0.0
+"Scarface","Valerie", 4.0
+"Scarface","Gary", 3.0
+"Scarface","Stephen", 0.0
+"Scarface","Jessica", 0.0
+"Scarface","Jeff", 0.0
+"Shawshank Redemption","Patrick C", 5.0
+"Shawshank Redemption","Heather", 0.0
+"Shawshank Redemption","Bryan", 5.0
+"Shawshank Redemption","Patrick T", 0.0
+"Shawshank Redemption","Thomas", 0.0
+"Shawshank Redemption","aaron", 5.0
+"Shawshank Redemption","vanessa", 0.0
+"Shawshank Redemption","greg", 5.0 
+"Shawshank Redemption","brian", 5.0
+"Shawshank Redemption","ben", 5.0
+"Shawshank Redemption","Katherine", 0.0
+"Shawshank Redemption","Jonathan", 0.0
+"Shawshank Redemption","Zwe", 4.0
+"Shawshank Redemption","Erin", 0.0
+"Shawshank Redemption","Chris", 4.0
+"Shawshank Redemption","Zak", 0.0
+"Shawshank Redemption","Matt", 0.0
+"Shawshank Redemption","Chris.1", 4.0
+"Shawshank Redemption","Josh", 0.0
+"Shawshank Redemption","Amy", 2.0
+"Shawshank Redemption","Valerie", 5.0
+"Shawshank Redemption","Gary", 5.0
+"Shawshank Redemption","Stephen", 0.0
+"Shawshank Redemption","Jessica", 0.0
+"Shawshank Redemption","Jeff", 0.0
+"Snakes on a Plane", "Patrick C", 4.0
+"Snakes on a Plane","Heather",1.0
+"Snakes on a Plane","Bryan", 2.0
+"Snakes on a Plane","Patrick T", 0.0
+"Snakes on a Plane","Thomas", 4.0
+"Snakes on a Plane","aaron", 0.0
+"Snakes on a Plane","vanessa", 0.0
+"Snakes on a Plane","greg", 0.0 
+"Snakes on a Plane","brian", 3.0
+"Snakes on a Plane","ben", 2.0
+"Snakes on a Plane","Katherine", 0.0
+"Snakes on a Plane","Jonathan", 0.0
+"Snakes on a Plane","Zwe", 1.0
+"Snakes on a Plane","Erin", 0.0
+"Snakes on a Plane","Chris", 3.0
+"Snakes on a Plane","Zak", 0.0
+"Snakes on a Plane","Matt", 1.0
+"Snakes on a Plane","Chris.1", 3.0
+"Snakes on a Plane","Josh", 0.0
+"Snakes on a Plane","Amy", 2.0
+"Snakes on a Plane","Valerie", 1.0
+"Snakes on a Plane","Gary", 2.0
+"Snakes on a Plane","Stephen", 0.0
+"Snakes on a Plane","Jessica", 2.0
+"Snakes on a Plane","Jeff",1.0
+"Spiderman","Patrick C", 4.0
+"Spiderman","Heather", 3.0
+"Spiderman","Bryan", 4.0
+"Spiderman","Patrick T", 4.0
+"Spiderman","Thomas", 5.0
+"Spiderman","aaron", 3.0
+"Spiderman","vanessa", 0.0
+"Spiderman","greg", 4.0 
+"Spiderman","brian", 4.0
+"Spiderman","ben", 4.0
+"Spiderman","Katherine", 5.0
+"Spiderman","Jonathan", 3.0
+"Spiderman","Zwe", 4.0
+"Spiderman","Erin", 3.0
+"Spiderman","Chris", 2.0
+"Spiderman","Zak", 3.0
+"Spiderman","Matt", 3.0
+"Spiderman","Chris.1", 2.0
+"Spiderman","Josh", 4.0
+"Spiderman","Amy", 3.0
+"Spiderman","Valerie", 5.0
+"Spiderman","Gary", 2.0
+"Spiderman","Stephen", 3.0
+"Spiderman","Jessica", 3.0
+"Spiderman","Jeff", 4.0
+"Star Wars","Patrick C", 5.0
+"Star Wars","Heather", 5.0
+"Star Wars","Bryan", 4.0
+"Star Wars","Patrick T", 5.0
+"Star Wars","Thomas", 5.0
+"Star Wars","aaron", 3.0
+"Star Wars","vanessa", 3.0
+"Star Wars","greg", 5.0 
+"Star Wars","brian", 5.0
+"Star Wars","ben", 5.0
+"Star Wars","Katherine", 5.0
+"Star Wars","Jonathan", 5.0
+"Star Wars","Zwe", 4.0
+"Star Wars","Erin", 3.0
+"Star Wars","Chris", 4.0
+"Star Wars","Zak", 5.0
+"Star Wars","Matt", 0.0
+"Star Wars","Chris.1", 5.0
+"Star Wars","Josh", 5.0
+"Star Wars","Amy", 0.0
+"Star Wars","Valerie", 5.0
+"Star Wars","Gary", 5.0
+"Star Wars","Stephen", 5.0
+"Star Wars","Jessica", 5.0
+"Star Wars","Jeff", 5.0
+"The Dark Knight","Patrick C", 4.0
+"The Dark Knight","Heather", 5.0
+"The Dark Knight","Bryan", 5.0
+"The Dark Knight","Patrick T", 4.0
+"The Dark Knight","Thomas", 4.0
+"The Dark Knight","aaron", 0.0
+"The Dark Knight","vanessa", 0.0
+"The Dark Knight","greg", 4.0 
+"The Dark Knight","brian", 4.0
+"The Dark Knight","ben", 5.0
+"The Dark Knight","Katherine", 0.0
+"The Dark Knight","Jonathan", 5.0
+"The Dark Knight","Zwe", 5.0
+"The Dark Knight","Erin", 0.0
+"The Dark Knight","Chris", 3.0
+"The Dark Knight","Zak", 5.0
+"The Dark Knight","Matt", 0.0
+"The Dark Knight","Chris.1", 4.0
+"The Dark Knight","Josh", 4.0
+"The Dark Knight","Amy", 4.0
+"The Dark Knight","Valerie", 5.0
+"The Dark Knight","Gary", 0.0
+"The Dark Knight","Stephen", 4.0
+"The Dark Knight","Jessica", 5.0
+"The Dark Knight","Jeff", 5.0 
+"The Happening","Patrick C", 1.0
+"The Happening","Heather", 0.0
+"The Happening","Bryan", 0.0
+"The Happening","Patrick T", 0.0
+"The Happening","Thomas", 1.0
+"The Happening","aaron", 0.0
+"The Happening","vanessa", 0.0
+"The Happening","greg", 0.0 
+"The Happening","brian", 2.0
+"The Happening","ben", 0.0
+"The Happening","Katherine", 0.0
+"The Happening","Jonathan", 0.0
+"The Happening","Zwe", 1.0
+"The Happening","Erin", 0.0
+"The Happening","Chris", 1.0
+"The Happening","Zak", 1.0
+"The Happening","Matt", 0.0
+"The Happening","Chris.1", 0.0
+"The Happening","Josh", 0.0
+"The Happening","Amy", 0.0
+"The Happening","Valerie", 1.0
+"The Happening","Gary", 0.0
+"The Happening","Stephen", 1.0
+"The Happening","Jessica", 0.0
+"The Happening","Jeff", 0.0
+"The Matrix","Patrick C", 3.0
+"The Matrix","Heather", 4.0
+"The Matrix","Bryan", 3.0
+"The Matrix","Patrick T", 5.0
+"The Matrix","Thomas", 4.0
+"The Matrix","aaron", 4.0
+"The Matrix","vanessa", 4.0
+"The Matrix","greg", 4.0 
+"The Matrix","brian", 5.0
+"The Matrix","ben", 4.0
+"The Matrix","Katherine", 4.0
+"The Matrix","Jonathan", 5.0
+"The Matrix","Zwe", 4.0
+"The Matrix","Erin", 4.0
+"The Matrix","Chris", 4.0
+"The Matrix","Zak", 5.0
+"The Matrix","Matt", 0.0
+"The Matrix","Chris.1", 2.0
+"The Matrix","Josh", 5.0
+"The Matrix","Amy", 5.0
+"The Matrix","Valerie", 4.0
+"The Matrix","Gary", 2.0
+"The Matrix","Stephen", 5.0
+"The Matrix","Jessica", 0.0
+"The Matrix","Jeff", 5.0
+"Toy Story","Patrick C", 4.0
+"Toy Story","Heather", 3.0
+"Toy Story","Bryan", 3.0
+"Toy Story","Patrick T", 4.0
+"Toy Story","Thomas", 4.0
+"Toy Story","aaron", 5.0
+"Toy Story","vanessa", 4.0
+"Toy Story","greg", 5.0 
+"Toy Story","brian", 5.0
+"Toy Story","ben", 5.0
+"Toy Story","Katherine", 5.0
+"Toy Story","Jonathan", 5.0
+"Toy Story","Zwe", 4.0
+"Toy Story","Erin", 5.0
+"Toy Story","Chris", 3.0
+"Toy Story","Zak", 4.0
+"Toy Story","Matt", 4.0
+"Toy Story","Chris.1", 4.0
+"Toy Story","Josh", 4.0
+"Toy Story","Amy", 4.0
+"Toy Story","Valerie", 5.0
+"Toy Story","Gary", 4.0
+"Toy Story","Stephen", 4.0
+"Toy Story","Jessica", 5.0
+"Toy Story","Jeff", 5.0 
+"Village","Patrick C", 0.0
+"Village","Heather", 2.0
+"Village","Bryan", 3.0
+"Village","Patrick T", 1.0
+"Village","Thomas", 1.0
+"Village","aaron", 0.0
+"Village","vanessa", 2.0
+"Village","greg", 0.0 
+"Village","brian", 4.0
+"Village","ben", 3.0
+"Village","Katherine", 0.0
+"Village","Jonathan", 0.0
+"Village","Zwe", 4.0
+"Village","Erin", 0.0
+"Village","Chris", 3.0
+"Village","Zak", 4.0
+"Village","Matt", 0.0
+"Village","Chris.1", 1.0
+"Village","Josh", 4.0
+"Village","Amy", 0.0
+"Village","Valerie", 2.0
+"Village","Gary", 0.0
+"Village","Stephen", 2.0
+"Village","Jessica", 0.0
+"Village","Jeff", 2.0 
+"You Got Mail","Patrick C", 1.0
+"You Got Mail","Heather", 0.0
+"You Got Mail","Bryan", 1.0
+"You Got Mail","Patrick T", 1.0
+"You Got Mail","Thomas", 1.0
+"You Got Mail","aaron", 3.0
+"You Got Mail","vanessa", 0.0
+"You Got Mail","greg", 0.0 
+"You Got Mail","brian", 3.0
+"You Got Mail","ben", 0.0
+"You Got Mail","Katherine", 0.0
+"You Got Mail","Jonathan", 2.0
+"You Got Mail","Zwe", 2.0
+"You Got Mail","Erin", 0.0
+"You Got Mail","Chris", 0.0
+"You Got Mail","Zak", 2.0
+"You Got Mail","Matt", 0.0
+"You Got Mail","Chris.1", 1.0
+"You Got Mail","Josh", 0.0
+"You Got Mail","Amy", 2.0
+"You Got Mail","Valerie", 2.0
+"You Got Mail","Gary", 1.0
+"You Got Mail","Stephen", 2.0
+"You Got Mail",Jessica", 0.0
+"You Got Mail", "Jeff", 2.0
