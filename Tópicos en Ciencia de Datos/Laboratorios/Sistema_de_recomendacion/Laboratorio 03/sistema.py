@@ -30,7 +30,7 @@ for i in arrMov:
 
 print("Completado")
 
-"""
+
 #Contamos los elementos junto con sus caracteristicas
 print("Cantidad de usuarios")
 print(len(users))
@@ -79,7 +79,7 @@ print("id del minimo")
 print(id_min)
 
 
-"""
+
 
 
 def cosine(rating_1, rating_2):
