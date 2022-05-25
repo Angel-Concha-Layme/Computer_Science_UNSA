@@ -127,6 +127,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CC87D554-781F-3D3E-B6B3-831D2CC570F8}</Project>
       <Name>hw0</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Laboratorio_03\laboratorio_03.vcxproj">
+      <Project>{9F1905EC-E34D-3F43-ABB7-19D185CB8A84}</Project>
+      <Name>laboratorio_03</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
