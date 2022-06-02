@@ -1,0 +1,10 @@
+^C:\USERS\ACONC\DESKTOP\MIS_ARCHIVOS\COMPUTER_SCIENCE_UNSA\COMPUTACIÓN GRÁFICA\LABORATORIO\GLFW_GLAD_GLUT_GLEW_CMAKE_PROJECT\SRC\LABORATORIO_03_MOD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project" "-BC:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64" --check-stamp-file "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_03_mod/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

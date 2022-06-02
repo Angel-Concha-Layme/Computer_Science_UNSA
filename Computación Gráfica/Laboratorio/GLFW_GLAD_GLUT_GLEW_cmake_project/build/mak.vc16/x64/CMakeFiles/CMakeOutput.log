@@ -1307,3 +1307,1431 @@ Copyright (C) Microsoft Corporation. Todos los derechos reservados.
 
 
 
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 1/06/2022 21:47:11.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:05.18
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 1/06/2022 21:47:17.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.17
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_40019.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40019.dir\Debug\\" /Fd"cmTC_40019.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_40019.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_40019.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ffb16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ffb16.dir\Debug\\" /Fd"cmTC_ffb16.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_ffb16.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_ffb16.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 1/06/2022 21:50:42.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:14.28
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 1/06/2022 21:51:14.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:17.31
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_31549.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31549.dir\Debug\\" /Fd"cmTC_31549.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_31549.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_31549.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_21708.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21708.dir\Debug\\" /Fd"cmTC_21708.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_21708.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_21708.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 09:52:27.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:04.19
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 09:52:32.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.76
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ae66f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae66f.dir\Debug\\" /Fd"cmTC_ae66f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_ae66f.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_ae66f.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_561de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_561de.dir\Debug\\" /Fd"cmTC_561de.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_561de.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_561de.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 09:58:12.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.19
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 09:58:15.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.81
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65f8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65f8b.dir\Debug\\" /Fd"cmTC_65f8b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_65f8b.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_65f8b.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_79fc9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_79fc9.dir\Debug\\" /Fd"cmTC_79fc9.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_79fc9.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_79fc9.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 09:58:52.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.91
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 09:58:53.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.78
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8fd03.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fd03.dir\Debug\\" /Fd"cmTC_8fd03.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_8fd03.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_8fd03.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_08735.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08735.dir\Debug\\" /Fd"cmTC_08735.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_08735.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_08735.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:04:18.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.19
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:04:19.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.73
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04bf2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04bf2.dir\Debug\\" /Fd"cmTC_04bf2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_04bf2.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_04bf2.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_103f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_103f1.dir\Debug\\" /Fd"cmTC_103f1.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_103f1.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_103f1.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:05:04.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.91
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:05:05.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.77
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe7e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe7e4.dir\Debug\\" /Fd"cmTC_fe7e4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_fe7e4.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_fe7e4.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f3551.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3551.dir\Debug\\" /Fd"cmTC_f3551.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_f3551.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_f3551.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:06:19.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.86
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:06:20.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.71
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c0ebf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0ebf.dir\Debug\\" /Fd"cmTC_c0ebf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_c0ebf.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_c0ebf.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d7552.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d7552.dir\Debug\\" /Fd"cmTC_d7552.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_d7552.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_d7552.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:07:56.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.89
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:07:57.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.68
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4d2f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d2f5.dir\Debug\\" /Fd"cmTC_4d2f5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_4d2f5.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_4d2f5.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8b946.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b946.dir\Debug\\" /Fd"cmTC_8b946.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_8b946.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_8b946.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:10:58.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.99
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:10:59.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.87
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_66a70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66a70.dir\Debug\\" /Fd"cmTC_66a70.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_66a70.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_66a70.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3c0d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3c0d5.dir\Debug\\" /Fd"cmTC_3c0d5.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_3c0d5.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_3c0d5.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:14:35.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.87
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:14:36.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.67
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5b2a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b2a0.dir\Debug\\" /Fd"cmTC_5b2a0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_5b2a0.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_5b2a0.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71fa8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71fa8.dir\Debug\\" /Fd"cmTC_71fa8.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_71fa8.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_71fa8.exe
+
+
+
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:41:57.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.91
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 2/06/2022 10:41:58.
+Proyecto "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\3.23.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.75
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/3.23.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_435a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCCompilerABI.c
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_435a6.dir\Debug\\" /Fd"cmTC_435a6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_435a6.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_435a6.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8dd9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine versión 17.1.0+ae57d105c para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.31.31107 para x64
+  CMakeCXXCompilerABI.cpp
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8dd9b.dir\Debug\\" /Fd"cmTC_8dd9b.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_8dd9b.vcxproj -> C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\CMakeFiles\CMakeTmp\Debug\cmTC_8dd9b.exe
+
+
+

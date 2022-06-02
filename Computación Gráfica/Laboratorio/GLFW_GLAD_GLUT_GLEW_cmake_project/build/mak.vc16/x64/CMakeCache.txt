@@ -207,6 +207,42 @@ Hello_Window_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 Hello_Window_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Hello_Window
 
+//Value Computed by CMake
+Laboratorio_03_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_03
+
+//Value Computed by CMake
+Laboratorio_03_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Laboratorio_03_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_03
+
+//Value Computed by CMake
+Laboratorio_03_mod_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_03_mod
+
+//Value Computed by CMake
+Laboratorio_03_mod_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Laboratorio_03_mod_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_03_mod
+
+//Value Computed by CMake
+Laboratorio_04_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_04
+
+//Value Computed by CMake
+Laboratorio_04_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Laboratorio_04_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_04
+
+//Value Computed by CMake
+Laboratorio_04_mod_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_04_mod
+
+//Value Computed by CMake
+Laboratorio_04_mod_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Laboratorio_04_mod_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_04_mod
+
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
 
@@ -232,6 +268,15 @@ Tutorial_02_glfw_IS_TOP_LEVEL:STATIC=OFF
 Tutorial_02_glfw_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Tutorial_02
 
 //Value Computed by CMake
+Vitral_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Vitral
+
+//Value Computed by CMake
+Vitral_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Vitral_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Vitral
+
+//Value Computed by CMake
 hw0_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/hw0
 
 //Value Computed by CMake
@@ -239,15 +284,6 @@ hw0_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 hw0_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/hw0
-
-//Value Computed by CMake
-laboratorio_03_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_03
-
-//Value Computed by CMake
-laboratorio_03_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-laboratorio_03_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_03
 
 
 ########################
@@ -334,7 +370,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
