@@ -30,7 +30,7 @@ for i in arrMov:
 
 print("Completado")
 
-
+"""
 #Contamos los elementos junto con sus caracteristicas
 print("Cantidad de usuarios")
 print(len(users))
@@ -78,8 +78,7 @@ print(id_max)
 print("id del minimo")
 print(id_min)
 
-
-
+"""
 
 
 def cosine(rating_1, rating_2):
@@ -216,13 +215,35 @@ def recomendacion(users,persona,vecinos,distancia,nro_peliculas):
         i=i+1
 
 
-def coseno_ajustado(users,id_test,distancia):
-    distances = list()
-    for i in users:
-        if (i!=id_test):
-            dist = distancia(users[i],users[id_test])
-            if dist!=-100:
-                distances.append((i,dist))
-    distances.sort(key=lambda tup: tup[1])
-    return distances
+"""
+persona = 500
+vecinos=10
+result=dict()
+knn(result,users,persona,vecinos,euclidean)
+"""
 
+"""
+persona = 380
+vecinos=10
+result=dict()
+knn(result,users,persona,vecinos,manhattan)
+"""
+
+"""
+persona = 580
+vecinos=10
+result=dict()
+knn(result,users,persona,vecinos,pearson)
+"""
+
+"""
+persona = 580
+vecinos=10
+result=dict()
+knn(result,users,persona,vecinos,cosine)
+"""
+
+import time
+start_time = time.time() 
+recomendacion(users,580,10,euclidean,10)
+print("--- %s seconds ---" % (time.time() - start_time))

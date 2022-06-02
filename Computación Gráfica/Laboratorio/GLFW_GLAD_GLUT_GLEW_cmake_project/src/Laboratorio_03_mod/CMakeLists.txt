@@ -1,4 +1,4 @@
-project( Laboratorio_03 )
+project( Laboratorio_03_mod )
 
 message( "Configuring main application - ${PROJECT_NAME} : " )
 

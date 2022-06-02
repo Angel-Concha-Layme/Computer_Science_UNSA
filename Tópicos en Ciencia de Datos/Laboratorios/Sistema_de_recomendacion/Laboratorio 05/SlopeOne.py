@@ -81,7 +81,7 @@ def SlopeOne(matrix, test_user, test_movie):
 #slopeOne(formMatrix(), '2', '3')
 
 
-def SlopeOne2(matrix, test_user, test_movie):
+def SlopeOne_h(matrix, test_user, test_movie):
     predict_list = []  
     movie_list_of_test_user = matrix[test_user]  
     for movie in movie_list_of_test_user:  
@@ -117,7 +117,7 @@ def SlopeOne2(matrix, test_user, test_movie):
     print('result: ', result)
     return numerator / denominator
 
-#SlopeOne2(formMatrix(), '2', '3')
+#SlopeOne_h(formMatrix(), '2', '3')
 
 def prediction():
     movieID = input("Ingrese el ID de la pelicula | ingrese -1 si no tiene el ID: ")
@@ -130,7 +130,7 @@ def prediction():
     SlopeOne(formMatrix(), userID, movieID)
     print("---------------------------------------------------------------------------------------------------------------------")
     print("---------------------------------------------------------------------------------------------------------------------")
-    SlopeOne2(formMatrix(), userID, movieID)
+    SlopeOne_h(formMatrix(), userID, movieID)
 
 
 prediction()

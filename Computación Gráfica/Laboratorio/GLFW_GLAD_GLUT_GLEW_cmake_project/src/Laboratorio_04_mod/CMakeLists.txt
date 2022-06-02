@@ -1,4 +1,4 @@
-project( Laboratorio_03 )
+project( Laboratorio_04_mod )
 
 message( "Configuring main application - ${PROJECT_NAME} : " )
 
@@ -117,4 +117,4 @@ else()
 							)
 
 	endif()	
-endif ()                      
+endif ()      
