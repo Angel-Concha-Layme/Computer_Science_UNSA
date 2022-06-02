@@ -17,7 +17,6 @@ const char* vertexShaderSource = "#version 330 core\n"
 
 "void main()\n"
 "{\n"
-// SE LE AGREGA EL SIGNO NEGATIVO A LA POSICION "Y"
 "   gl_Position = vec4(aPos.x, -aPos.y, aPos.z, 1.0); \n"
 "   ourColor = aColor; \n"
 "}\0";
@@ -111,7 +110,7 @@ int main()
         // positions         // colors
          0.5f, 0.5f, 0.0f,  1.0f, 0.0f, 0.0f,      // rojo
         -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,      // verde
-         0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f       // azul
+         0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f     // azul
 	};
 	
 

@@ -7,6 +7,6 @@ add_subdirectory( Laboratorio_03 )
 add_subdirectory( Laboratorio_03_mod )
 add_subdirectory( Laboratorio_04 )
 add_subdirectory( Laboratorio_04_mod )
-add_subdirectory( Vitral )
+add_subdirectory( Laboratorio_05)
 
 

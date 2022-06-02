@@ -131,6 +131,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{5C0A84FB-704B-37F7-B932-1DEC92D71C45}</Project>
       <Name>Laboratorio_04_mod</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Laboratorio_05\Laboratorio_05.vcxproj">
+      <Project>{1547D71A-CC01-3AB4-B01A-72DA8DE749C9}</Project>
+      <Name>Laboratorio_05</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Tutorial_01\Tutorial_01_glfw.vcxproj">
       <Project>{0AB7344B-B605-3771-BF61-11E0FC91B523}</Project>
       <Name>Tutorial_01_glfw</Name>
@@ -138,10 +142,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Tutorial_02\Tutorial_02_glfw.vcxproj">
       <Project>{8B5A023A-E7C6-35D2-A816-F99A31C73824}</Project>
       <Name>Tutorial_02_glfw</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Vitral\Vitral.vcxproj">
-      <Project>{BEC24A68-B930-3C04-B4C4-C180E2836318}</Project>
-      <Name>Vitral</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\hw0\hw0.vcxproj">
       <Project>{CC87D554-781F-3D3E-B6B3-831D2CC570F8}</Project>

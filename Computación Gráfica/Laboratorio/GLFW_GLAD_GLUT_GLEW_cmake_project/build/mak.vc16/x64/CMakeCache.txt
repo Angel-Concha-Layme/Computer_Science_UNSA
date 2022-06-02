@@ -243,6 +243,15 @@ Laboratorio_04_mod_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 Laboratorio_04_mod_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_04_mod
 
+//Value Computed by CMake
+Laboratorio_05_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Laboratorio_05
+
+//Value Computed by CMake
+Laboratorio_05_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Laboratorio_05_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Laboratorio_05
+
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
 
@@ -266,15 +275,6 @@ Tutorial_02_glfw_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Tutorial_02_glfw_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Tutorial_02
-
-//Value Computed by CMake
-Vitral_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Vitral
-
-//Value Computed by CMake
-Vitral_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Vitral_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Vitral
 
 //Value Computed by CMake
 hw0_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/hw0
