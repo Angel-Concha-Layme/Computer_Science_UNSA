@@ -8,5 +8,9 @@ add_subdirectory( Laboratorio_03_mod )
 add_subdirectory( Laboratorio_04 )
 add_subdirectory( Laboratorio_04_mod )
 add_subdirectory( Laboratorio_05)
+add_subdirectory( Practica_01 )
+add_subdirectory( Practica_02 )
+add_subdirectory( Practica_03 )
+
 
 

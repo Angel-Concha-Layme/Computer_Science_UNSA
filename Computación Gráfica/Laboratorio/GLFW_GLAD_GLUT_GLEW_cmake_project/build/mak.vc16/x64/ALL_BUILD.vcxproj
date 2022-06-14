@@ -135,6 +135,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{1547D71A-CC01-3AB4-B01A-72DA8DE749C9}</Project>
       <Name>Laboratorio_05</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Practica_01\Practica_01.vcxproj">
+      <Project>{4D58991B-5079-3016-AC01-60D56E768C28}</Project>
+      <Name>Practica_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Practica_02\Practica_02.vcxproj">
+      <Project>{3EFC426F-FB4D-396E-8639-E61996F29AD2}</Project>
+      <Name>Practica_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Practica_03\Practica_03.vcxproj">
+      <Project>{0EABFA12-DF49-3768-BD67-EF1EB555D1D0}</Project>
+      <Name>Practica_03</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\build\mak.vc16\x64\src\Tutorial_01\Tutorial_01_glfw.vcxproj">
       <Project>{0AB7344B-B605-3771-BF61-11E0FC91B523}</Project>
       <Name>Tutorial_01_glfw</Name>

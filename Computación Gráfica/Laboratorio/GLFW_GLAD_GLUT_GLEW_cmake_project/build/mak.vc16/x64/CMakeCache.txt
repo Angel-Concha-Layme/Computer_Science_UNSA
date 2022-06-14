@@ -259,6 +259,33 @@ OPENGL_gl_LIBRARY:STRING=opengl32
 OPENGL_glu_LIBRARY:STRING=glu32
 
 //Value Computed by CMake
+Practica_01_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Practica_01
+
+//Value Computed by CMake
+Practica_01_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Practica_01_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Practica_01
+
+//Value Computed by CMake
+Practica_02_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Practica_02
+
+//Value Computed by CMake
+Practica_02_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Practica_02_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Practica_02
+
+//Value Computed by CMake
+Practica_03_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Practica_03
+
+//Value Computed by CMake
+Practica_03_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Practica_03_SOURCE_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/src/Practica_03
+
+//Value Computed by CMake
 Tutorial_01_glfw_BINARY_DIR:STATIC=C:/Users/aconc/Desktop/Mis_archivos/Computer_Science_UNSA/Computación Gráfica/Laboratorio/GLFW_GLAD_GLUT_GLEW_cmake_project/build/mak.vc16/x64/src/Tutorial_01
 
 //Value Computed by CMake
@@ -370,7 +397,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
