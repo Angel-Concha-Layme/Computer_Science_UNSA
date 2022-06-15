@@ -1,2 +1,0 @@
-﻿  main.cpp
-C:\Users\aconc\Desktop\Mis_archivos\Computer_Science_UNSA\Computación Gráfica\Laboratorio\GLFW_GLAD_GLUT_GLEW_cmake_project\src\Vitral\main.cpp(6,10): fatal error C1083: No se puede abrir el archivo incluir: 'SFML/Window.hpp': No such file or directory
