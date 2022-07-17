@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f324b97838c3f219a30a0247c9a8266 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0f324b97838c3f219a30a0247c9a8266" ></div>
+        
+</body>
+<script>    
+    
+            var map_0f324b97838c3f219a30a0247c9a8266 = L.map(
+                "map_0f324b97838c3f219a30a0247c9a8266",
+                {
+                    center: [41.864073, -87.706819],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e94b0cac84e743c6d1c5672010f38313 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+            var circle_marker_2dee4b5ba8db702b61949329493568e0 = L.circleMarker(
+                [41.877935869, -87.647983151],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+        var popup_00f48a240dd2f40c65ebdd704b76e6c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_124e92ea1b3010daed7dc2b4bac49552 = $(`<div id="html_124e92ea1b3010daed7dc2b4bac49552" style="width: 100.0%; height: 100.0%;">Community Index : BATTERY<br>                 Arrest : False<br>                 Location Description : SIDEWALK<br></div>`)[0];
+            popup_00f48a240dd2f40c65ebdd704b76e6c5.setContent(html_124e92ea1b3010daed7dc2b4bac49552);
+        
+
+        circle_marker_2dee4b5ba8db702b61949329493568e0.bindPopup(popup_00f48a240dd2f40c65ebdd704b76e6c5)
+        ;
+
+        
+    
+    
+            var circle_marker_ccc04dc10038bd9066208aca4688c4e4 = L.circleMarker(
+                [41.75069424, -87.562576558],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+        var popup_f72b523d3b79b1bba15cfb0af757f9cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50d32ef5b0b08a4d2d070f81cdca9368 = $(`<div id="html_50d32ef5b0b08a4d2d070f81cdca9368" style="width: 100.0%; height: 100.0%;">Community Index : CRIMINAL DAMAGE<br>                 Arrest : False<br>                 Location Description : RESIDENCE<br></div>`)[0];
+            popup_f72b523d3b79b1bba15cfb0af757f9cb.setContent(html_50d32ef5b0b08a4d2d070f81cdca9368);
+        
+
+        circle_marker_ccc04dc10038bd9066208aca4688c4e4.bindPopup(popup_f72b523d3b79b1bba15cfb0af757f9cb)
+        ;
+
+        
+    
+    
+            var circle_marker_2ad6c40cdaf7596dd173e732631f4616 = L.circleMarker(
+                [41.878638996, -87.627691486],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+        var popup_e4331a254c88c538d92d9a6c81edc364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6018c74e0a6af2d6bb27e856b410eedb = $(`<div id="html_6018c74e0a6af2d6bb27e856b410eedb" style="width: 100.0%; height: 100.0%;">Community Index : DECEPTIVE PRACTICE<br>                 Arrest : False<br>                 Location Description : CTA PLATFORM<br></div>`)[0];
+            popup_e4331a254c88c538d92d9a6c81edc364.setContent(html_6018c74e0a6af2d6bb27e856b410eedb);
+        
+
+        circle_marker_2ad6c40cdaf7596dd173e732631f4616.bindPopup(popup_e4331a254c88c538d92d9a6c81edc364)
+        ;
+
+        
+    
+    
+            var circle_marker_f1788f7920be032bb260ebee4c9c0757 = L.circleMarker(
+                [41.761543403, -87.70517794],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+        var popup_b695de65948a4cf30636eec122c3d458 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27bced15a7cb87011035f20aaab56db8 = $(`<div id="html_27bced15a7cb87011035f20aaab56db8" style="width: 100.0%; height: 100.0%;">Community Index : MOTOR VEHICLE THEFT<br>                 Arrest : False<br>                 Location Description : STREET<br></div>`)[0];
+            popup_b695de65948a4cf30636eec122c3d458.setContent(html_27bced15a7cb87011035f20aaab56db8);
+        
+
+        circle_marker_f1788f7920be032bb260ebee4c9c0757.bindPopup(popup_b695de65948a4cf30636eec122c3d458)
+        ;
+
+        
+    
+    
+            var circle_marker_e1b211d4820a2c6bdbac6d8e1cc15d52 = L.circleMarker(
+                [41.85886763, -87.725260526],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+        var popup_df6f15f0c5a5e50cd8d30a04f96863f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7b2e966ec40bd90613d8478c91efa76 = $(`<div id="html_c7b2e966ec40bd90613d8478c91efa76" style="width: 100.0%; height: 100.0%;">Community Index : NARCOTICS<br>                 Arrest : True<br>                 Location Description : SIDEWALK<br></div>`)[0];
+            popup_df6f15f0c5a5e50cd8d30a04f96863f1.setContent(html_c7b2e966ec40bd90613d8478c91efa76);
+        
+
+        circle_marker_e1b211d4820a2c6bdbac6d8e1cc15d52.bindPopup(popup_df6f15f0c5a5e50cd8d30a04f96863f1)
+        ;
+
+        
+    
+    
+            var circle_marker_91f35604b1f75d9ac9dd309869cdb588 = L.circleMarker(
+                [41.931057327, -87.712888824],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_0f324b97838c3f219a30a0247c9a8266);
+        
+    
+        var popup_a25aef29ab82e984d6dc51edd27ca890 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4082110867f1aa303d897c3a3d0ebe5 = $(`<div id="html_e4082110867f1aa303d897c3a3d0ebe5" style="width: 100.0%; height: 100.0%;">Community Index : THEFT<br>                 Arrest : False<br>                 Location Description : STREET<br></div>`)[0];
+            popup_a25aef29ab82e984d6dc51edd27ca890.setContent(html_e4082110867f1aa303d897c3a3d0ebe5);
+        
+
+        circle_marker_91f35604b1f75d9ac9dd309869cdb588.bindPopup(popup_a25aef29ab82e984d6dc51edd27ca890)
+        ;
+
+        
+    
+</script>
