@@ -19,7 +19,6 @@ create table publicaciones(
     foreign key(ID_usuario) references usuarios(ID_usuario)
 );
 
-
 create table categorias(
     ID_categoria int not null auto_increment,
     nombre varchar(50) not null,
@@ -34,7 +33,6 @@ create table interacciones(
     foreign key(ID_usuario) references usuarios(ID_usuario),
     foreign key(ID_publicacion) references publicaciones(ID_publicacion)
 );
-
 
 create table categorias_publicaciones(
     ID_categoria int not null,
@@ -53,3 +51,17 @@ create table comentarios(
     foreign key(ID_usuario) references usuarios(ID_usuario),
     foreign key(ID_publicacion) references publicaciones(ID_publicacion)
 );
+
+
+Alter TABLE publicaciones ADD COLUMN fecha DATE not null ;
+Alter TABLE publicaciones ADD COLUMN contador_interacciones int not null ;
+alter table publicaciones ADD COLUMN imagen BLOB not null ;
+
+
+
+
+
+
+
+
+
