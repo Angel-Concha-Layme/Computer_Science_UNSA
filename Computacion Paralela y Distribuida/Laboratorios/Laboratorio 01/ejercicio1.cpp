@@ -7,8 +7,8 @@
 
 
 void prueba();
-void loop1(int);
-void loop2(int);
+void par_bucles_1(int);
+void par_bucles_2(int);
 
 int main(){
     prueba();
@@ -16,13 +16,13 @@ int main(){
 
 void prueba(){
     for (auto i = 1000; i < 16000; i+=1000){
-        loop1(i);
-        loop2(i);
+        par_bucles_1(i);
+        par_bucles_2(i);
         std::cout<<'\n';
     }
 }
 
-void loop1(int tamanno){
+void par_bucles_1(int tamanno){
     const int MAX = tamanno;
     double **A, *x, *y;
     A = new double*[MAX];
@@ -59,7 +59,7 @@ void loop1(int tamanno){
 
 }
 
-void loop2(int tamanno){
+void par_bucles_2(int tamanno){
     const int MAX = tamanno;
     double **A, *x, *y;
     A = new double*[MAX];
@@ -93,5 +93,4 @@ void loop2(int tamanno){
     delete[] A;
     delete[] x;
     delete[] y;
-
 }
