@@ -2,7 +2,6 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 
-
 ventana = Tk()
 ventana.title("Movimiento Rectilineo Uniformemente Variado")
 ventana.geometry("300x180")
@@ -14,7 +13,6 @@ velocidad_final = StringVar()
 tiempo = StringVar()
 distancia = StringVar()
 aceleracion = StringVar()
-
 
 def ventana_velocidad_inicial(): #abre una nueva ventana para calcular la velocidad inicial
     ventana2 = Toplevel(ventana)
@@ -261,18 +259,7 @@ def calcular_velocidad_inicial(velocidad_final2, tiempo2, aceleracion2):
 
     except:
         messagebox.showerror("Error", "No se puede calcular")
-
-        
-
-
-
-
-
-
-
-
-
-
+     
 boton1 = Button(ventana, text="Calcular velocidad inicial", command=ventana_velocidad_inicial, width=30 )
 boton1.place(x=15, y=10)
 
@@ -287,9 +274,6 @@ boton4.place(x=15, y=100)
 
 boton5 = Button(ventana, text="Calcular aceleracion", command= ventana_aceleracion, width=30)
 boton5.place(x=15, y=130)
-
-
-
 
 
 ventana.mainloop()
