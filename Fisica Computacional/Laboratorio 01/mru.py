@@ -1,8 +1,6 @@
-
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
-
 
 ventana = Tk()
 ventana.title("Movimiento Rectilineo Uniforme")
@@ -59,4 +57,3 @@ boton3 = Button(ventana, text="Salir", command=salir)
 boton3.place(x=150, y=100)
 
 ventana.mainloop()
-
