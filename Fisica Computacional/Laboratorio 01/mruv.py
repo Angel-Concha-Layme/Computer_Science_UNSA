@@ -14,7 +14,7 @@ tiempo = StringVar()
 distancia = StringVar()
 aceleracion = StringVar()
 
-def ventana_velocidad_inicial(): #abre una nueva ventana para calcular la velocidad inicial
+def ventana_velocidad_inicial(): 
     ventana2 = Toplevel(ventana)
     ventana2.title("Velocidad inicial")
     ventana2.geometry("300x200")
