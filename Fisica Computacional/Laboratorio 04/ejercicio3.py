@@ -6,7 +6,7 @@ import tkinter as tk
 
 ventana = tk.Tk()
 ventana.title("Segunda ley de kepler")
-ventana.geometry("400x300")
+ventana.geometry("400x200")
 
 masa = tk.Label(ventana, text="Ingrese la masa del planeta en kg")
 masa.place(x=10, y=10)
