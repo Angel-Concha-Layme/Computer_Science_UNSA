@@ -77,7 +77,8 @@
         "charconv": "cpp",
         "optional": "cpp",
         "string_view": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "mpi.h": "c"
     },
     "cmake.sourceDirectory": "${workspaceFolder}/Compiladores/Proyecto final",
     "cmake.configureOnOpen": true
