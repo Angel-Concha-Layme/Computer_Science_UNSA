@@ -46,7 +46,7 @@ def edplaplace(ua,ub,uc,ud,n,m,maxiter,error):
 edplaplace(20,300,80,0,40,40,100,0.001)
 
 #EJERCICIO 2
-edplaplace(120,0,120,0,40,40,100,0.001)
+#edplaplace(120,0,120,0,40,40,100,0.001)
 
 
 
