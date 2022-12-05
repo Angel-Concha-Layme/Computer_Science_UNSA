@@ -26,3 +26,6 @@ with open('Angel.pem', 'wb') as f:
     f.write(public_key)
 
 
+with open('Angel_private.pem', 'wb') as f:
+    f.write(private_key)
+    
