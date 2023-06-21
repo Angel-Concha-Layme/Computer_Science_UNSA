@@ -22,21 +22,16 @@ def remove_metadata(text):
     Elimina el encabezado, el pie de página y la puntuación de un texto.
     Devuelve el texto en minúsculas y sin espacios en blanco al principio y al final.
     """
-    # encuentra la línea que divide la cabecera y el cuerpo
     header_divider = re.search(r'\*\*\* START OF THIS PROJECT GUTENBERG EBOOK \*\*\*', text)
     if header_divider:
-        # el cuerpo comienza en la siguiente línea
         header_divider = header_divider.end() + 1
         text = text[header_divider:]
 
-    # encuentra la línea que divide el cuerpo y el pie de página
     footer_divider = re.search(r'\*\*\* END OF THIS PROJECT GUTENBERG EBOOK \*\*\*', text)
     if footer_divider:
-        # el cuerpo termina en la línea anterior
         footer_divider = footer_divider.start()
         text = text[:footer_divider]
 
-    # eliminar puntuación y convertir a minúsculas
     text = text.translate(str.maketrans('', '', string.punctuation + '«»¡¿”“—'))
     text = text.lower()
 
