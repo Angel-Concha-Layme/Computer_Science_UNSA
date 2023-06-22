@@ -4,7 +4,8 @@ import threading
 from collections import defaultdict
 
 NUM_PROCESSORS = os.cpu_count()
-PERCENTAGES = [0.25, 0.5, 0.75, 1.0]
+
+PERCENTAGES = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
 
 file_paths = []
 with open('file_paths.txt', 'r', encoding='utf-8') as file_paths_txt:
