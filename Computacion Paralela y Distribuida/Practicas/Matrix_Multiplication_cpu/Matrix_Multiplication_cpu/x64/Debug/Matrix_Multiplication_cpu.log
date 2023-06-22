@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\PROYECTOS\CUDA\Matrix_Multiplication_cpu\Matrix_Multiplication_cpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\PROYECTOS\CUDA\Matrix_Multiplication_cpu\Matrix_Multiplication_cpu\x64\Debug\kernel.cu.obj "D:\PROYECTOS\CUDA\Matrix_Multiplication_cpu\Matrix_Multiplication_cpu\kernel.cu" 
+  kernel.cu
+  tmpxft_00009914_00000000-7_kernel.cudafe1.cpp
+D:\PROYECTOS\CUDA\Matrix_Multiplication_cpu\Matrix_Multiplication_cpu\time_helper.h(26): warning C4244: '=': conversión de 'time_t' a 'long'; posible pérdida de datos
+  Matrix_Multiplication_cpu.vcxproj -> D:\PROYECTOS\CUDA\Matrix_Multiplication_cpu\x64\Debug\Matrix_Multiplication_cpu.exe
