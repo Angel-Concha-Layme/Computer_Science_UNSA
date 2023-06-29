@@ -1,0 +1,26 @@
+num_processors: 1,      percentage: 25%,     runtime: 26.33559012413025 seconds
+num_processors: 1,      percentage: 50%,     runtime: 43.23894238471985 seconds
+num_processors: 1,      percentage: 75%,     runtime: 63.85289168357849 seconds
+num_processors: 1,      percentage: 100%,    runtime: 84.07250833511353 seconds
+num_processors: 2,      percentage: 25%,     runtime: 16.571564197540283 seconds
+num_processors: 2,      percentage: 50%,     runtime: 31.614338874816895 seconds
+num_processors: 2,      percentage: 75%,     runtime: 49.99579906463623 seconds
+num_processors: 2,      percentage: 100%,    runtime: 70.1869306564331 seconds
+num_processors: 3,      percentage: 25%,     runtime: 18.82531762123108 seconds
+num_processors: 3,      percentage: 50%,     runtime: 33.35109090805054 seconds
+num_processors: 3,      percentage: 75%,     runtime: 54.19265103340149 seconds
+num_processors: 3,      percentage: 100%,    runtime: 66.91018533706665 seconds
+num_processors: 4,      percentage: 25%,     runtime: 15.775840759277344 seconds
+num_processors: 4,      percentage: 50%,     runtime: 34.013267517089844 seconds
+num_processors: 4,      percentage: 75%,     runtime: 50.29107880592346 seconds
+num_processors: 4,      percentage: 100%,    runtime: 69.78402996063232 seconds
+num_processors: 5,      percentage: 25%,     runtime: 15.779316663742065 seconds
+num_processors: 5,      percentage: 50%,     runtime: 33.91485548019409 seconds
+num_processors: 5,      percentage: 75%,     runtime: 50.30243539810181 seconds
+num_processors: 5,      percentage: 100%,    runtime: 68.02810955047607 seconds
+num_processors: 6,      percentage: 25%,     runtime: 16.19502091407776 seconds
+num_processors: 6,      percentage: 50%,     runtime: 31.14549708366394 seconds
+num_processors: 6,      percentage: 75%,     runtime: 48.7052857875824 seconds
+num_processors: 6,      percentage: 100%,    runtime: 66.9098448753357 seconds
+
+
